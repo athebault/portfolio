@@ -10,7 +10,6 @@ Etant entrepreneure dans une coopérative d'activité et d'emploi (CAE), toute l
 
 [Voir le projet](entrepreneurship_dashboard.qmd)
 
-------------------------------------------------------------------------
 
 ### Fichier interactif d'analyses de données
 
@@ -18,7 +17,6 @@ Projet d'exploration et d'analyse descriptive de données, sous format interacti
 
 [Voir le projet](interactive_data_analysis.qmd)
 
-------------------------------------------------------------------------
 
 ### Visualisation de résultat d'expérimentation
 
@@ -36,24 +34,27 @@ Utilisation de LLM pour structurer un référentiel documentaire.
 
 [Voir le projet](nlp_project.qmd)
 
-|  |
-|:-----------------------------------------------------------------------|
-| \### Elaboration d'un indicateur de qualité santé et environnement |
-| Utilisation de LLM pour structurer un référentiel documentaire. |
-| [Voir le projet](openfoodfacts_ecoscore.qmd) |
-| \### Développement d'un outil d'aide à la décision pour l'attribution d"un crédit bancaire |
-| Calibration d'un modèle de scoring pour décider de l'atribution ou non d'un crédit bancaire et développement d'une interface de visualisation permettant d'expliquer la décision. |
-| [Voir le projet](bank_scoring.qmd) |
+### Elaboration d'un indicateur de qualité santé et environnement
 
+Utilisation de LLM pour structurer un référentiel documentaire.
+
+[Voir le projet](openfoodfacts_ecoscore.qmd)
+
+### Développement d'un outil d'aide à la décision pour l'attribution d"un crédit bancaire
+
+Calibration d'un modèle de scoring pour décider de l'atribution ou non d'un crédit bancaire et développement d'une interface de visualisation permettant d'expliquer la décision.
+
+[Voir le projet](bank_scoring.qmd)
+
+-------------------------------------------------------------------------
 ## Petites applications utiles
 
 ### Visualisation de la couverture géographique des titres de Presse régionale
 
 Application permettant de visualiser rapidement la couverture géographique des différents titres de presse quotidienne régionale française. Les données sont issues du site de l'Alliance pour les Chiffres de la Presse et des Médias ([ACPM](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale)).
 
--> [Cartographie de la couverture géographique de la Presse Quotidienne] Régionale(https://cartographie-pqr.streamlit.app/)
+-\> [Cartographie de la couverture géographique de la Presse Quotidienne Régionale](https://cartographie-pqr.streamlit.app/)
 
 ### Elaboration d'une bibliothèque de la redirection écologique
 
 Cette [application streamlit](https://www.mediatheque.ecolibres.fr/) permet de trouver rapidement des ressources en lien avec la redirection écologique et les business modeles régénératifs.
-
