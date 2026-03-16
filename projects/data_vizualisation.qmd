@@ -12,25 +12,28 @@ execute:
 
 ## Résumé du projet
 
-::::: columns
+:::::: columns
 ::: {.column width="60%"}
 **Contexte**\
 Le client avait besoin d'un outil pour automatiser la représentation de variables mesurées lors d'une phase d'expérimentation.
 
 **Objectif**\
-La représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.
+La représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contextes, en évitant de refaire manuellement les graphiques à chaque changement.
 
 **Résultat**\
-J'ai réalisé une application interactive permettant de choisir, au sein d'une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l'inteprétation des résultats.
+J'ai réalisé une application interactive permettant de choisir, au sein d'une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l'interprétation des résultats.
 :::
 
-::: {.column width="40%"}
+::: {.column width="15%"}
+:::
+
+::: {.column width="25%"}
 ### Technologies
 
 -   Langage: `Python`
-    -   package: pandas
-    -   framework: `streamlit`
-    -   visualisation: plotly
+    -   package: **openxyl**, **pandas**
+    -   framework web: `streamlit`
+    -   visualisation: **plotly**
 -   `Git`
 -   `Docker`
 
@@ -40,26 +43,27 @@ J'ai réalisé une application interactive permettant de choisir, au sein d'une 
 -   Application interactive
 -   Visualisation
 :::
-:::::
+::::::
 
-**Témoignage**\
-*Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !*
-
-Lilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS
-
-------------------------------------------------------------------------
+```{=html}
+<div class="card text-white bg-success mb-3"">
+  <div class="card-body">
+    <p class="card-text"><i>Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !
+</i></p>
+<div class="card-header">Lilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS</div>
+  </div>
+</div>
+```
 
 ## Le problème
 
 Décrire en quelques lignes :
 
--   le contexte
--   la difficulté
--   l’intérêt du projet
+-   Projet de recherche et développement
+-   Parties prenantes utilisant des logiciels de création de graphique type excel ou usage basique de langage de programmation
+-   Automatiser la production de visualisation grahique pour permettre aux équipes de se concentrer sur leur plus-value
 
-> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
-
-------------------------------------------------------------------------
+> Permettre aux équipes d'ingénieurs de se concentrer sur le coeur de leur métier: l'interprétation de données.
 
 ## Mon approche
 

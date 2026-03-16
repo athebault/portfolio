@@ -157,18 +157,20 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Contexte</strong><br>
 Le client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.</p>
 <p><strong>Objectif</strong><br>
-La représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.</p>
+La représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contextes, en évitant de refaire manuellement les graphiques à chaque changement.</p>
 <p><strong>Résultat</strong><br>
-J’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e.&nbsp;l’inteprétation des résultats.</p>
-</div><div class="column" style="width:40%;">
+J’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e.&nbsp;l’interprétation des résultats.</p>
+</div><div class="column" style="width:15%;">
+
+</div><div class="column" style="width:25%;">
 <section id="technologies" class="level3">
 <h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
 <ul>
 <li>Langage: <code>Python</code>
 <ul>
-<li>package: pandas</li>
-<li>framework: <code>streamlit</code></li>
-<li>visualisation: plotly</li>
+<li>package: <strong>openxyl</strong>, <strong>pandas</strong></li>
+<li>framework web: <code>streamlit</code></li>
+<li>visualisation: <strong>plotly</strong></li>
 </ul></li>
 <li><code>Git</code></li>
 <li><code>Docker</code></li>
@@ -184,23 +186,25 @@ J’ai réalisé une application interactive permettant de choisir, au sein d’
 </section>
 </div>
 </div>
-<p><strong>Témoignage</strong><br>
-<em>Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d’un sol. Cet outil a été conçu dans le cadre d’un projet de R&amp;D co-financé par l’ADEME (projet DIVA). Avec l’aide d’EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d’un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd’hui en routine, et qui nous offre d’un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s’est attachée à retranscrire fidèlement ce qu’on lui demandait, tout en proposant ses propres options d’amélioration, et ce toujours dans la bonne humeur !</em></p>
-<p>Lilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS</p>
-<hr>
+<div class="card text-white bg-success mb-3" "="">
+  <div class="card-body">
+    <p class="card-text"><i>Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&amp;D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !
+</i></p>
+<div class="card-header">Lilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS</div>
+  </div>
+</div>
 </section>
 <section id="le-problème" class="level2">
 <h2 class="anchored" data-anchor-id="le-problème">Le problème</h2>
 <p>Décrire en quelques lignes :</p>
 <ul>
-<li>le contexte</li>
-<li>la difficulté</li>
-<li>l’intérêt du projet</li>
+<li>Projet de recherche et développement</li>
+<li>Parties prenantes utilisant des logiciels de création de graphique type excel ou usage basique de langage de programmation</li>
+<li>Automatiser la production de visualisation grahique pour permettre aux équipes de se concentrer sur leur plus-value</li>
 </ul>
 <blockquote class="blockquote">
-<p>Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.</p>
+<p>Permettre aux équipes d’ingénieurs de se concentrer sur le coeur de leur métier: l’interprétation de données.</p>
 </blockquote>
-<hr>
 </section>
 <section id="mon-approche" class="level2">
 <h2 class="anchored" data-anchor-id="mon-approche">Mon approche</h2>

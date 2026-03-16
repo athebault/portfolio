@@ -12,35 +12,51 @@ Je suis data scientist avec un background en écologie scientifique. Je dévelop
 
 ::::::: grid
 ::: g-col-4
-### Dashboard performance modèles
+### Pilotage d'activité entrepreneuriale
 
-Exploration de métadonnées d'entraînement de modèles.
+Tableau de bord permettant aux référent.es et entrepreneur.es. d'une coopérative d'activité et d'emploi (CAE) de visualiser rapidement la situation économique de leur activité.
 
 [Voir le projet](projects/entrepreneurship_dashboard.qmd)
 :::
 
 ::: g-col-4
-### Classification NLP
+### Analyse de données interactive pour non codeurs
 
-Structuration automatique de mots-clés.
+Fichier interactif permettant d'explorer les données d'une expérimentation terrain et de visualiser rapidement les relations entre variables, sans avoir besoin de coder.
 
 [Voir le projet](projects/interactive_data_analysis.qmd)
 :::
 
 ::: g-col-4
-### Prédiction consommation énergétique
+### Automatisation de la création de visualisation graphique
 
-Modèle de machine learning.
+Application interactive pour la génération d'analyses descriptives et la génération de visualisation graphiques avancées pour un projet de recherche et développement.
 
 [Voir le projet](projects/data_vizualisation.qmd)
 :::
 
 ::: g-col-4
-### Prédiction consommation énergétique
+### LLM pour le référencement bibliographique 
 
-Modèle de machine learning.
+Calibration d'un modèle de langage pour l'élaboration d'un outil d'aide au référencement des notices bibliographiques de l'enseignement supérieur.
 
 [Voir le projet](projects/nlp_project.qmd)
+:::
+
+::: g-col-4
+### Prototype d'application: l'eco-score de nos produits 
+
+*Travail de formation:* Valorisation des données de la base ouverte OpenFoodFacts pour créer un éco-score des produits et système de recommandation de produits alternatifs. 
+
+[Voir le projet](projects/openfoodfacts_ecoscore.qmd)
+:::
+
+::: g-col-4
+### Optimisation d'un modèle de scoring bancaire 
+
+*Travail de formation:* Calibration d'un modèle de prédiction d'attribution de prêt bancaire et déploiement d'un tableau de bord d'explication pour le personnel bancaire
+
+[Voir le projet](projects/bank_scoring.qmd)
 :::
 :::::::
 

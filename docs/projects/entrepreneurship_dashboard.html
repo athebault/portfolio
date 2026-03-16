@@ -8,7 +8,7 @@
 
 <meta name="author" content="Aurélie Thébault">
 
-<title>Nom du projet – Aurélie Thébault</title>
+<title>Pilotage d’activité entrepreneuriale – Aurélie Thébault</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,8 +126,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Nom du projet</h1>
-<p class="subtitle lead">Phrase courte expliquant le projet</p>
+<h1 class="title">Pilotage d’activité entrepreneuriale</h1>
+<p class="subtitle lead">Visualiser en un clin d’oeil sa situation financière</p>
 </div>
 
 
@@ -155,30 +155,48 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><strong>Contexte</strong><br>
-Décrire brièvement le contexte du projet.</p>
+La coopérative d’activité et d’emploi est un modèle coopératif permettant d’heberger l’activité économiques de plusieurs solopreneur.es sous une même entité juridique et de mutualiser les services support. La CAE met à disposition des entrepreneur un outil de suivi financier (création de devis et factures, de notes de frais, suivi des paiements et de la comptabilité, …). Cet outil ne propose pas de visualisation graphique.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/img/capture_ecran_louty.png" class="img-fluid figure-img" alt="Un tableau avec des valeurs financières"></p>
+<figcaption>Format de représentation de données du logiciel Louty</figcaption>
+</figure>
+</div>
 <p><strong>Objectif</strong><br>
-Quel problème ce projet devait-il résoudre ?</p>
+Le tableau de pilotage doit permettre aux référent.es et entrepreneur.es de rapidement visualiser la santé financière de leur activité et de pouvoir analyser rapidement les principaux postes de dépenses ou de chiffres d’affaires.</p>
 <p><strong>Résultat</strong><br>
-Quel outil, analyse ou produit a été réalisé ?</p>
-</div><div class="column" style="width:40%;">
+Un tableau de bord de pilotage a été déployé sur internet avec accès sécurisé et divers niveaux d’accès permettant:</p>
+<ul>
+<li>aux entrepreneur.es de visualiser leur situation économique</li>
+<li>aux référent.es de visualiser la situation économique de l’ensemble des entrepreneur.es</li>
+<li>aux administrateurs de pouvoir enregistrer ou modifier des utilisateurs et leurs droits.</li>
+</ul>
+</div><div class="column" style="width:15%;">
+
+</div><div class="column" style="width:25%;">
 <section id="technologies" class="level3">
 <h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
-<p><code>Python</code> <code>Pandas</code> <code>DataViz</code> <code>Dashboard</code></p>
 <ul>
-<li>R / Python</li>
-<li>package ou librairie</li>
-<li>framework</li>
-<li>visualisation</li>
-<li>Git</li>
+<li>Langage: <code>Python</code>
+<ul>
+<li>package: <strong>requests</strong>, <strong>pandas</strong>, <strong>sqlite3</strong>,<strong>auth</strong>, <strong>dotenv</strong>, <strong>jose</strong>, <strong>bcrypt</strong>, <strong>sqlalchemy</strong>,<br>
+</li>
+<li>framework web: <code>streamlit</code></li>
+<li>visualisation: <strong>plotly</strong></li>
+</ul></li>
+<li><code>DuckDb</code></li>
+<li><code>Git</code></li>
+<li><code>Docker</code></li>
 </ul>
 </section>
 <section id="type-de-projet" class="level3">
 <h3 class="anchored" data-anchor-id="type-de-projet">Type de projet</h3>
 <ul>
-<li>Analyse de données</li>
-<li>Machine learning</li>
-<li>Application interactive</li>
+<li>Requêtes sur une API</li>
+<li>Création d’indicateurs, calculs comptables</li>
+<li>Application interactive avec système de connexion sécurisé</li>
 <li>Visualisation</li>
+<li>Déploiement</li>
 </ul>
 </section>
 </div>
@@ -187,50 +205,46 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 </section>
 <section id="le-problème" class="level2">
 <h2 class="anchored" data-anchor-id="le-problème">Le problème</h2>
-<p>Décrire en quelques lignes :</p>
-<ul>
-<li>le contexte</li>
-<li>la difficulté</li>
-<li>l’intérêt du projet</li>
-</ul>
+<p>Les entrepreneurs de la CAE ne sont pas toutes et tous à l’aise avec la lecture de tableaux de données. Le fait de ne pas réussir à se tenir informé de sa situation financière en autonomie génère deux risques pour la CAE: - Difficulté économique sur les activités des entrepreneur.es - Sur-sollicitation des référent.es pour de la lecture de tableaux, aux dépends de leurs mission d’accompagnement stratégique L’objectif est donc de construire un outil visuel, facile d’accès, à jour, permettant d’alerter le plus rapidement possible sur un risque économique, tout en tenant compte de la grande diversité des utilisateurs en termes d’acculturation digitale.</p>
 <blockquote class="blockquote">
-<p>Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.</p>
+<p>Visualiser les risques sur l’activité en un clin d’oeil.</p>
 </blockquote>
-<hr>
 </section>
 <section id="mon-approche" class="level2">
 <h2 class="anchored" data-anchor-id="mon-approche">Mon approche</h2>
-<section id="exploration-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="exploration-des-données">1. Exploration des données</h3>
+<section id="compréhension-des-données" class="level3">
+<h3 class="anchored" data-anchor-id="compréhension-des-données">1. Compréhension des données</h3>
 <ul>
-<li>analyse exploratoire</li>
-<li>visualisations</li>
-<li>premières hypothèses</li>
+<li>Formation sur la comptabilité auprès des référent.es</li>
+<li>Compréhension des calculs réalisés manuellement par les référents</li>
+<li>Compréhension de la structure de l’<a href="https://appli.louty.net/Louty/swagger/index.html#/https://appli.louty.net/Louty/swagger/index.html#/">API de Louty</a></li>
 </ul>
 </section>
-<section id="préparation-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="préparation-des-données">2. Préparation des données</h3>
+<section id="mise-en-place-dun-pipeline-etl" class="level3">
+<h3 class="anchored" data-anchor-id="mise-en-place-dun-pipeline-etl">2. Mise en place d’un pipeline ETL</h3>
 <ul>
-<li>nettoyage</li>
-<li>transformation</li>
-<li>feature engineering</li>
+<li>Extraction quotidienne des données depuis l’API Louty</li>
+<li>Nettoyage, formatage des donneés et calcul de nouveaux indicateurs</li>
+<li>Chargement des données transformées dans une base de données DuckDB</li>
 </ul>
 </section>
-<section id="analyse-ou-modélisation" class="level3">
-<h3 class="anchored" data-anchor-id="analyse-ou-modélisation">3. Analyse ou modélisation</h3>
+<section id="création-dune-application-interactive" class="level3">
+<h3 class="anchored" data-anchor-id="création-dune-application-interactive">3. Création d’une application interactive</h3>
 <ul>
-<li>méthodes utilisées</li>
-<li>comparaison d’approches si applicable</li>
+<li>Récupération quotidienne des données depuis la BDD DuckDB</li>
+<li>Création de l’architecture de l’application, des onglets et visualisation</li>
+<li>Mise en place d’une page d’authentification sécurisée</li>
+<li>Développement de niveaux d’utilisateurs avec différents droits (<em>entrepreneur/référent/administrateur</em>)</li>
 </ul>
 </section>
-<section id="construction-de-loutil" class="level3">
-<h3 class="anchored" data-anchor-id="construction-de-loutil">4. Construction de l’outil</h3>
+<section id="déploiement" class="level3">
+<h3 class="anchored" data-anchor-id="déploiement">4. Déploiement</h3>
 <ul>
-<li>dashboard</li>
-<li>modèle</li>
-<li>visualisation interactive</li>
+<li>Dockerisation du pipeline et mise en place de tâche CRON</li>
+<li>Dockerisation du dashboard</li>
+<li>Intégration continue via GitHub Actions</li>
+<li>Déploiement sur un serveur éco-responsable <a href="https://www.infomaniak.com/fr">(VPS infomaniak)</a></li>
 </ul>
-<hr>
 </section>
 </section>
 <section id="architecture-technique" class="level2">
@@ -241,16 +255,42 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A[Données brutes] --&gt; B[Préparation des données]
-  B --&gt; C[Analyse / Modélisation]
-  C --&gt; D[Visualisation]
-  D --&gt; E[Application / Dashboard]
+  subgraph Pipeline ETL
+    A[Requête API quotidienne] --&gt; B[Formatage, Nettoyage]
+    B --&gt; C[Transformation: calculs métiers, création d'indicateurs]
+  end
+  subgraph Création d'application
+    C --&gt; D[Maquetage de l'application, choix des visualisations]
+    D --&gt; E[Création des pages]
+    E --&gt; F[Finalisation du dashboard]
+  end
+  subgraph Déploiement
+    F --&gt; G[Dockerisation du pipeline ETL]
+    G --&gt; H[Dockerisation du dashboard]
+    H --&gt; I[Choix du serveur eco-responsable pour la mise en ligne]
+  end
+
+  style A fill:#e8f4ea,stroke:#4caf50,color:#000
+  style B fill:#e8f4ea,stroke:#4caf50,color:#000
+  style C fill:#e8f4ea,stroke:#4caf50,color:#000
+  style D fill:#e3f0fb,stroke:#2196f3,color:#000
+  style E fill:#e3f0fb,stroke:#2196f3,color:#000
+  style F fill:#e3f0fb,stroke:#2196f3,color:#000
+  style G fill:#fff3e0,stroke:#ff9800,color:#000
+  style H fill:#fff3e0,stroke:#ff9800,color:#000  
+  style I fill:#fff3e0,stroke:#ff9800,color:#000
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
+</section>
+<section id="démo" class="level2">
+<h2 class="anchored" data-anchor-id="démo">Démo</h2>
+<video width="100%" height="500" controls="" muted="">
+<source src="../assets/videos/dashboard_entrepreneurs.mp4" type="video/mp4">
+</video>
 
 
 </section>

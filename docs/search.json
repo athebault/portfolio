@@ -28,6 +28,41 @@
     "text": "Parcours\n\n2024 – aujourd’hui\nFondatrice des Solutions EcoLibres\nData science et développement d’outils d’analyse. Auvergne-Rhône-Alpes\n\n\n2021 – 2023\nEntrepreneure indépendante en Coopérative d’Activité et d’Emploi (CAE Arcoop)\nPrestation en analyse de données\nValence et France en remote\n\n\n2013 - 2020\nIngénieur de recherche en entreprise\nModélisation adaptée à l’agriculture de précision pour le développement d’outils d’aide à la décision pour les pratiques agricoles.\n\nCarbon Bee AgTech, Valence\nITK, Montpellier\n\n\n\n2009 - 2013\nRecherche et analyse de données environnementales\n\nINRAE, Montpellier\nUniversité de Lausanne, Lausanne, Suisse\nWSL, Lausanne, Suisse\n\n\n\n2004 - 2009\nThèse de docotrat en écologie végétale\nAnalyse de la résistance des communautés végétales aux plantes envahissantes\nEcole Polytechnique Fédérale de Lausanne (EPFL), Suisse\n\n\n2001 – 2004\nFormation scientifique en écologie et analyse de données\nFormation d’ingénieur agronome, spécialisation “Génie de l’environnement”\nOption Préservation, Aménagement des Milieux et Ecologie Quantitative\nAgrocampus Ouest, Rennes"
   },
   {
+    "objectID": "projects/openfoodfacts_ecoscore.html",
+    "href": "projects/openfoodfacts_ecoscore.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/openfoodfacts_ecoscore.html#résumé-du-projet",
+    "href": "projects/openfoodfacts_ecoscore.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/openfoodfacts_ecoscore.html#le-problème",
+    "href": "projects/openfoodfacts_ecoscore.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/openfoodfacts_ecoscore.html#mon-approche",
+    "href": "projects/openfoodfacts_ecoscore.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/openfoodfacts_ecoscore.html#architecture-technique",
+    "href": "projects/openfoodfacts_ecoscore.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
     "objectID": "projects/interactive_ecology_library.html",
     "href": "projects/interactive_ecology_library.html",
     "title": "Nom du projet",
@@ -186,7 +221,7 @@
     "href": "index.html#projets",
     "title": "Data Science Portfolio",
     "section": "Projets",
-    "text": "Projets\n\n\nDashboard performance modèles\nExploration de métadonnées d’entraînement de modèles.\nVoir le projet\n\n\nClassification NLP\nStructuration automatique de mots-clés.\nVoir le projet\n\n\nPrédiction consommation énergétique\nModèle de machine learning.\nVoir le projet\n\n\nPrédiction consommation énergétique\nModèle de machine learning.\nVoir le projet"
+    "text": "Projets\n\n\nPilotage d’activité entrepreneuriale\nTableau de bord permettant aux référent.es et entrepreneur.es. d’une coopérative d’activité et d’emploi (CAE) de visualiser rapidement la situation économique de leur activité.\nVoir le projet\n\n\nAnalyse de données interactive pour non codeurs\nFichier interactif permettant d’explorer les données d’une expérimentation terrain et de visualiser rapidement les relations entre variables, sans avoir besoin de coder.\nVoir le projet\n\n\nAutomatisation de la création de visualisation graphique\nApplication interactive pour la génération d’analyses descriptives et la génération de visualisation graphiques avancées pour un projet de recherche et développement.\nVoir le projet\n\n\nLLM pour le référencement bibliographique\nCalibration d’un modèle de langage pour l’élaboration d’un outil d’aide au référencement des notices bibliographiques de l’enseignement supérieur.\nVoir le projet\n\n\nPrototype d’application: l’eco-score de nos produits\nTravail de formation: Valorisation des données de la base ouverte OpenFoodFacts pour créer un éco-score des produits et système de recommandation de produits alternatifs.\nVoir le projet\n\n\nOptimisation d’un modèle de scoring bancaire\nTravail de formation: Calibration d’un modèle de prédiction d’attribution de prêt bancaire et déploiement d’un tableau de bord d’explication pour le personnel bancaire\nVoir le projet"
   },
   {
     "objectID": "index.html#mes-clients",
@@ -212,58 +247,65 @@
   {
     "objectID": "projects/entrepreneurship_dashboard.html",
     "href": "projects/entrepreneurship_dashboard.html",
-    "title": "Nom du projet",
+    "title": "Pilotage d’activité entrepreneuriale",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nLa coopérative d’activité et d’emploi est un modèle coopératif permettant d’heberger l’activité économiques de plusieurs solopreneur.es sous une même entité juridique et de mutualiser les services support. La CAE met à disposition des entrepreneur un outil de suivi financier (création de devis et factures, de notes de frais, suivi des paiements et de la comptabilité, …). Cet outil ne propose pas de visualisation graphique.\n\n\n\nFormat de représentation de données du logiciel Louty\n\n\nObjectif\nLe tableau de pilotage doit permettre aux référent.es et entrepreneur.es de rapidement visualiser la santé financière de leur activité et de pouvoir analyser rapidement les principaux postes de dépenses ou de chiffres d’affaires.\nRésultat\nUn tableau de bord de pilotage a été déployé sur internet avec accès sécurisé et divers niveaux d’accès permettant:\n\naux entrepreneur.es de visualiser leur situation économique\naux référent.es de visualiser la situation économique de l’ensemble des entrepreneur.es\naux administrateurs de pouvoir enregistrer ou modifier des utilisateurs et leurs droits.\n\n\n\n\n\n\n\nLangage: Python\n\npackage: requests, pandas, sqlite3,auth, dotenv, jose, bcrypt, sqlalchemy,\n\nframework web: streamlit\nvisualisation: plotly\n\nDuckDb\nGit\nDocker\n\n\n\n\n\nRequêtes sur une API\nCréation d’indicateurs, calculs comptables\nApplication interactive avec système de connexion sécurisé\nVisualisation\nDéploiement"
   },
   {
     "objectID": "projects/entrepreneurship_dashboard.html#résumé-du-projet",
     "href": "projects/entrepreneurship_dashboard.html#résumé-du-projet",
-    "title": "Nom du projet",
+    "title": "Pilotage d’activité entrepreneuriale",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nLa coopérative d’activité et d’emploi est un modèle coopératif permettant d’heberger l’activité économiques de plusieurs solopreneur.es sous une même entité juridique et de mutualiser les services support. La CAE met à disposition des entrepreneur un outil de suivi financier (création de devis et factures, de notes de frais, suivi des paiements et de la comptabilité, …). Cet outil ne propose pas de visualisation graphique.\n\n\n\nFormat de représentation de données du logiciel Louty\n\n\nObjectif\nLe tableau de pilotage doit permettre aux référent.es et entrepreneur.es de rapidement visualiser la santé financière de leur activité et de pouvoir analyser rapidement les principaux postes de dépenses ou de chiffres d’affaires.\nRésultat\nUn tableau de bord de pilotage a été déployé sur internet avec accès sécurisé et divers niveaux d’accès permettant:\n\naux entrepreneur.es de visualiser leur situation économique\naux référent.es de visualiser la situation économique de l’ensemble des entrepreneur.es\naux administrateurs de pouvoir enregistrer ou modifier des utilisateurs et leurs droits.\n\n\n\n\n\n\n\nLangage: Python\n\npackage: requests, pandas, sqlite3,auth, dotenv, jose, bcrypt, sqlalchemy,\n\nframework web: streamlit\nvisualisation: plotly\n\nDuckDb\nGit\nDocker\n\n\n\n\n\nRequêtes sur une API\nCréation d’indicateurs, calculs comptables\nApplication interactive avec système de connexion sécurisé\nVisualisation\nDéploiement"
   },
   {
     "objectID": "projects/entrepreneurship_dashboard.html#le-problème",
     "href": "projects/entrepreneurship_dashboard.html#le-problème",
-    "title": "Nom du projet",
+    "title": "Pilotage d’activité entrepreneuriale",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nLes entrepreneurs de la CAE ne sont pas toutes et tous à l’aise avec la lecture de tableaux de données. Le fait de ne pas réussir à se tenir informé de sa situation financière en autonomie génère deux risques pour la CAE: - Difficulté économique sur les activités des entrepreneur.es - Sur-sollicitation des référent.es pour de la lecture de tableaux, aux dépends de leurs mission d’accompagnement stratégique L’objectif est donc de construire un outil visuel, facile d’accès, à jour, permettant d’alerter le plus rapidement possible sur un risque économique, tout en tenant compte de la grande diversité des utilisateurs en termes d’acculturation digitale.\n\nVisualiser les risques sur l’activité en un clin d’oeil."
   },
   {
     "objectID": "projects/entrepreneurship_dashboard.html#mon-approche",
     "href": "projects/entrepreneurship_dashboard.html#mon-approche",
-    "title": "Nom du projet",
+    "title": "Pilotage d’activité entrepreneuriale",
     "section": "Mon approche",
-    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+    "text": "Mon approche\n\n1. Compréhension des données\n\nFormation sur la comptabilité auprès des référent.es\nCompréhension des calculs réalisés manuellement par les référents\nCompréhension de la structure de l’API de Louty\n\n\n\n2. Mise en place d’un pipeline ETL\n\nExtraction quotidienne des données depuis l’API Louty\nNettoyage, formatage des donneés et calcul de nouveaux indicateurs\nChargement des données transformées dans une base de données DuckDB\n\n\n\n3. Création d’une application interactive\n\nRécupération quotidienne des données depuis la BDD DuckDB\nCréation de l’architecture de l’application, des onglets et visualisation\nMise en place d’une page d’authentification sécurisée\nDéveloppement de niveaux d’utilisateurs avec différents droits (entrepreneur/référent/administrateur)\n\n\n\n4. Déploiement\n\nDockerisation du pipeline et mise en place de tâche CRON\nDockerisation du dashboard\nIntégration continue via GitHub Actions\nDéploiement sur un serveur éco-responsable (VPS infomaniak)"
   },
   {
     "objectID": "projects/entrepreneurship_dashboard.html#architecture-technique",
     "href": "projects/entrepreneurship_dashboard.html#architecture-technique",
-    "title": "Nom du projet",
+    "title": "Pilotage d’activité entrepreneuriale",
     "section": "Architecture technique",
-    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  subgraph Pipeline ETL\n    A[Requête API quotidienne] --&gt; B[Formatage, Nettoyage]\n    B --&gt; C[Transformation: calculs métiers, création d'indicateurs]\n  end\n  subgraph Création d'application\n    C --&gt; D[Maquetage de l'application, choix des visualisations]\n    D --&gt; E[Création des pages]\n    E --&gt; F[Finalisation du dashboard]\n  end\n  subgraph Déploiement\n    F --&gt; G[Dockerisation du pipeline ETL]\n    G --&gt; H[Dockerisation du dashboard]\n    H --&gt; I[Choix du serveur eco-responsable pour la mise en ligne]\n  end\n\n  style A fill:#e8f4ea,stroke:#4caf50,color:#000\n  style B fill:#e8f4ea,stroke:#4caf50,color:#000\n  style C fill:#e8f4ea,stroke:#4caf50,color:#000\n  style D fill:#e3f0fb,stroke:#2196f3,color:#000\n  style E fill:#e3f0fb,stroke:#2196f3,color:#000\n  style F fill:#e3f0fb,stroke:#2196f3,color:#000\n  style G fill:#fff3e0,stroke:#ff9800,color:#000\n  style H fill:#fff3e0,stroke:#ff9800,color:#000  \n  style I fill:#fff3e0,stroke:#ff9800,color:#000"
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html#démo",
+    "href": "projects/entrepreneurship_dashboard.html#démo",
+    "title": "Pilotage d’activité entrepreneuriale",
+    "section": "Démo",
+    "text": "Démo"
   },
   {
     "objectID": "projects/data_vizualisation.html",
     "href": "projects/data_vizualisation.html",
     "title": "Visualisation interactive de résultat d’expérimentation",
     "section": "",
-    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’inteprétation des résultats.\n\n\n\n\nLangage: Python\n\npackage: pandas\nframework: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\nTémoignage\nAurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d’un sol. Cet outil a été conçu dans le cadre d’un projet de R&D co-financé par l’ADEME (projet DIVA). Avec l’aide d’EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d’un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd’hui en routine, et qui nous offre d’un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s’est attachée à retranscrire fidèlement ce qu’on lui demandait, tout en proposant ses propres options d’amélioration, et ce toujours dans la bonne humeur !\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
+    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contextes, en évitant de refaire manuellement les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’interprétation des résultats.\n\n\n\n\n\n\nLangage: Python\n\npackage: openxyl, pandas\nframework web: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\n\n  \n    Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !\n\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
   },
   {
     "objectID": "projects/data_vizualisation.html#résumé-du-projet",
     "href": "projects/data_vizualisation.html#résumé-du-projet",
     "title": "Visualisation interactive de résultat d’expérimentation",
     "section": "",
-    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’inteprétation des résultats.\n\n\n\n\nLangage: Python\n\npackage: pandas\nframework: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\nTémoignage\nAurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d’un sol. Cet outil a été conçu dans le cadre d’un projet de R&D co-financé par l’ADEME (projet DIVA). Avec l’aide d’EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d’un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd’hui en routine, et qui nous offre d’un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s’est attachée à retranscrire fidèlement ce qu’on lui demandait, tout en proposant ses propres options d’amélioration, et ce toujours dans la bonne humeur !\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
+    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contextes, en évitant de refaire manuellement les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’interprétation des résultats.\n\n\n\n\n\n\nLangage: Python\n\npackage: openxyl, pandas\nframework web: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\n\n  \n    Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !\n\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
   },
   {
     "objectID": "projects/data_vizualisation.html#le-problème",
     "href": "projects/data_vizualisation.html#le-problème",
     "title": "Visualisation interactive de résultat d’expérimentation",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nDécrire en quelques lignes :\n\nProjet de recherche et développement\nParties prenantes utilisant des logiciels de création de graphique type excel ou usage basique de langage de programmation\nAutomatiser la production de visualisation grahique pour permettre aux équipes de se concentrer sur leur plus-value\n\n\nPermettre aux équipes d’ingénieurs de se concentrer sur le coeur de leur métier: l’interprétation de données."
   },
   {
     "objectID": "projects/data_vizualisation.html#mon-approche",
@@ -285,6 +327,41 @@
     "title": "Visualisation interactive de résultat d’expérimentation",
     "section": "Démo",
     "text": "Démo"
+  },
+  {
+    "objectID": "projects/bank_scoring.html",
+    "href": "projects/bank_scoring.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/bank_scoring.html#résumé-du-projet",
+    "href": "projects/bank_scoring.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/bank_scoring.html#le-problème",
+    "href": "projects/bank_scoring.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/bank_scoring.html#mon-approche",
+    "href": "projects/bank_scoring.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/bank_scoring.html#architecture-technique",
+    "href": "projects/bank_scoring.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
   },
   {
     "objectID": "projects/open_data_exploration.html",

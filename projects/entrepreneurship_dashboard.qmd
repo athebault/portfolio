@@ -1,6 +1,6 @@
 ---
-title: "Nom du projet"
-subtitle: "Phrase courte expliquant le projet"
+title: "Pilotage d'activité entrepreneuriale"
+subtitle: "Visualiser en un clin d'oeil sa situation financière"
 author: "Aurélie Thébault"
 format:
   html:
@@ -12,84 +12,120 @@ execute:
 
 ## Résumé du projet
 
-::::: columns
+:::::: columns
 ::: {.column width="60%"}
 **Contexte**\
-Décrire brièvement le contexte du projet.
+La coopérative d'activité et d'emploi est un modèle coopératif permettant d'heberger l'activité économiques de plusieurs solopreneur.es sous une même entité juridique et de mutualiser les services support. La CAE met à disposition des entrepreneur un outil de suivi financier (création de devis et factures, de notes de frais, suivi des paiements et de la comptabilité, ...). Cet outil ne propose pas de visualisation graphique.
+
+![Format de représentation de données du logiciel Louty](/assets/img/capture_ecran_louty.png){fig-alt="Un tableau avec des valeurs financières" fig-align="center"}
 
 **Objectif**\
-Quel problème ce projet devait-il résoudre ?
+Le tableau de pilotage doit permettre aux référent.es et entrepreneur.es de rapidement visualiser la santé financière de leur activité et de pouvoir analyser rapidement les principaux postes de dépenses ou de chiffres d'affaires.
 
 **Résultat**\
-Quel outil, analyse ou produit a été réalisé ?
+Un tableau de bord de pilotage a été déployé sur internet avec accès sécurisé et divers niveaux d'accès permettant:
+
+-   aux entrepreneur.es de visualiser leur situation économique
+-   aux référent.es de visualiser la situation économique de l'ensemble des entrepreneur.es
+-   aux administrateurs de pouvoir enregistrer ou modifier des utilisateurs et leurs droits.
 :::
 
-::: {.column width="40%"}
+::: {.column width="15%"}
+:::
+
+::: {.column width="25%"}
 ### Technologies
 
-`Python` `Pandas` `DataViz` `Dashboard`
-
--   R / Python
--   package ou librairie
--   framework
--   visualisation
--   Git
+-   Langage: `Python`
+    -   package: **requests**, **pandas**, **sqlite3**,**auth**, **dotenv**, **jose**, **bcrypt**, **sqlalchemy**,\
+    -   framework web: `streamlit`
+    -   visualisation: **plotly**
+-   `DuckDb`
+-   `Git`
+-   `Docker`
 
 ### Type de projet
 
--   Analyse de données
--   Machine learning
--   Application interactive
+-   Requêtes sur une API
+-   Création d'indicateurs, calculs comptables
+-   Application interactive avec système de connexion sécurisé
 -   Visualisation
+-   Déploiement
 :::
-:::::
+::::::
 
 ------------------------------------------------------------------------
 
 ## Le problème
 
-Décrire en quelques lignes :
+Les entrepreneurs de la CAE ne sont pas toutes et tous à l'aise avec la lecture de tableaux de données. Le fait de ne pas réussir à se tenir informé de sa situation financière en autonomie génère deux risques pour la CAE: - Difficulté économique sur les activités des entrepreneur.es - Sur-sollicitation des référent.es pour de la lecture de tableaux, aux dépends de leurs mission d'accompagnement stratégique L'objectif est donc de construire un outil visuel, facile d'accès, à jour, permettant d'alerter le plus rapidement possible sur un risque économique, tout en tenant compte de la grande diversité des utilisateurs en termes d'acculturation digitale.
 
--   le contexte
--   la difficulté
--   l’intérêt du projet
-
-> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
-
-------------------------------------------------------------------------
+> Visualiser les risques sur l'activité en un clin d'oeil.
 
 ## Mon approche
 
-### 1. Exploration des données
+### 1. Compréhension des données
 
--   analyse exploratoire
--   visualisations
--   premières hypothèses
+-   Formation sur la comptabilité auprès des référent.es
+-   Compréhension des calculs réalisés manuellement par les référents
+-   Compréhension de la structure de l'[API de Louty](https://appli.louty.net/Louty/swagger/index.html#/https://appli.louty.net/Louty/swagger/index.html#/)
 
-### 2. Préparation des données
+### 2. Mise en place d'un pipeline ETL
 
--   nettoyage
--   transformation
--   feature engineering
+-   Extraction quotidienne des données depuis l'API Louty
+-   Nettoyage, formatage des donneés et calcul de nouveaux indicateurs
+-   Chargement des données transformées dans une base de données DuckDB
 
-### 3. Analyse ou modélisation
+### 3. Création d'une application interactive
 
--   méthodes utilisées
--   comparaison d’approches si applicable
+-   Récupération quotidienne des données depuis la BDD DuckDB
+-   Création de l'architecture de l'application, des onglets et visualisation
+-   Mise en place d'une page d'authentification sécurisée
+-   Développement de niveaux d'utilisateurs avec différents droits (*entrepreneur/référent/administrateur*)
 
-### 4. Construction de l’outil
 
--   dashboard
--   modèle
--   visualisation interactive
+### 4. Déploiement
 
-------------------------------------------------------------------------
+-   Dockerisation du pipeline et mise en place de tâche CRON
+-   Dockerisation du dashboard
+-   Intégration continue via GitHub Actions
+-   Déploiement sur un serveur éco-responsable [(VPS infomaniak)](https://www.infomaniak.com/fr)
+
 
 ## Architecture technique
+
 ```{mermaid}
 flowchart LR
-  A[Données brutes] --> B[Préparation des données]
-  B --> C[Analyse / Modélisation]
-  C --> D[Visualisation]
-  D --> E[Application / Dashboard]
+  subgraph Pipeline ETL
+    A[Requête API quotidienne] --> B[Formatage, Nettoyage]
+    B --> C[Transformation: calculs métiers, création d'indicateurs]
+  end
+  subgraph Création d'application
+    C --> D[Maquetage de l'application, choix des visualisations]
+    D --> E[Création des pages]
+    E --> F[Finalisation du dashboard]
+  end
+  subgraph Déploiement
+    F --> G[Dockerisation du pipeline ETL]
+    G --> H[Dockerisation du dashboard]
+    H --> I[Choix du serveur eco-responsable pour la mise en ligne]
+  end
+
+  style A fill:#e8f4ea,stroke:#4caf50,color:#000
+  style B fill:#e8f4ea,stroke:#4caf50,color:#000
+  style C fill:#e8f4ea,stroke:#4caf50,color:#000
+  style D fill:#e3f0fb,stroke:#2196f3,color:#000
+  style E fill:#e3f0fb,stroke:#2196f3,color:#000
+  style F fill:#e3f0fb,stroke:#2196f3,color:#000
+  style G fill:#fff3e0,stroke:#ff9800,color:#000
+  style H fill:#fff3e0,stroke:#ff9800,color:#000  
+  style I fill:#fff3e0,stroke:#ff9800,color:#000
 ```
+
+## Démo
+
+<video width="100%" height=500 controls muted>
+
+<source src="../assets/videos/dashboard_entrepreneurs.mp4" type="video/mp4">
+
+</video>
