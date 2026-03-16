@@ -1,0 +1,22 @@
+project:
+  type: website
+  resources:
+    - assets/
+
+website:
+  title: "Aurélie Thébault"
+  navbar:
+    left:
+      - text: Accueil
+        href: index.qmd
+      - text: Projets
+        href: projects/index.qmd
+      - text: A propos
+        href: about.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    mermaid:
+      theme: neutral

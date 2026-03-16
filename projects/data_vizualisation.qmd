@@ -1,0 +1,122 @@
+---
+title: "Visualisation interactive de résultat d'expérimentation"
+subtitle: "Faciliter l'analyse de données et la recherche de patterns"
+author: "Aurélie Thébault"
+format:
+  html:
+    toc: false
+    page-layout: full
+execute:
+  echo: false
+---
+
+## Résumé du projet
+
+::::: columns
+::: {.column width="60%"}
+**Contexte**\
+Le client avait besoin d'un outil pour automatiser la représentation de variables mesurées lors d'une phase d'expérimentation.
+
+**Objectif**\
+La représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.
+
+**Résultat**\
+J'ai réalisé une application interactive permettant de choisir, au sein d'une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l'inteprétation des résultats.
+:::
+
+::: {.column width="40%"}
+### Technologies
+
+-   Langage: `Python`
+    -   package: pandas
+    -   framework: `streamlit`
+    -   visualisation: plotly
+-   `Git`
+-   `Docker`
+
+### Type de projet
+
+-   Analyse de données
+-   Application interactive
+-   Visualisation
+:::
+:::::
+
+**Témoignage**\
+*Aurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d'un sol. Cet outil a été conçu dans le cadre d'un projet de R&D co-financé par l'ADEME (projet DIVA). Avec l'aide d'EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d'un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd'hui en routine, et qui nous offre d'un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s'est attachée à retranscrire fidèlement ce qu'on lui demandait, tout en proposant ses propres options d'amélioration, et ce toujours dans la bonne humeur !*
+
+Lilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS
+
+------------------------------------------------------------------------
+
+## Le problème
+
+Décrire en quelques lignes :
+
+-   le contexte
+-   la difficulté
+-   l’intérêt du projet
+
+> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
+
+------------------------------------------------------------------------
+
+## Mon approche
+
+### 1. Exploration des données
+
+-   Vérification de la cohérence de la base de données
+-   Propositions de représentations graphiques
+-   Calcul d'indicateurs statistiques simples (moyenne, écart-type, médiane)
+
+### 2. Construction de l’outil
+
+-   dashboard streamlit
+-   exploration et organisation des données avec Pandas
+-   visualisation interactive avec plotly
+
+### 3. Déploiement chez le client
+
+-   Dockerisation de l'application
+
+-   Push sur Gitlab à la demande du client
+
+-   Déploiement opéré en interaction avec le client (Dev. sur place)
+
+## Architecture technique
+
+```{mermaid}
+flowchart LR
+  subgraph Données
+    A[Excel formaté] --> B[Chargement]
+  end
+  subgraph Traitement
+    B --> C[Lecture & affichage]
+    C --> D[Calculs interactifs]
+  end
+  subgraph Restitution
+    D --> E[Visualisation]
+    E --> F[Dashboard]
+  end
+  subgraph Déploiement
+    F --> G[Git / Docker]
+    G --> H[Client]
+  end
+
+  style A fill:#e8f4ea,stroke:#4caf50,color:#000
+  style B fill:#e8f4ea,stroke:#4caf50,color:#000
+  style C fill:#e3f0fb,stroke:#2196f3,color:#000
+  style D fill:#e3f0fb,stroke:#2196f3,color:#000
+  style E fill:#fff3e0,stroke:#ff9800,color:#000
+  style F fill:#fff3e0,stroke:#ff9800,color:#000
+  style G fill:#f3e5f5,stroke:#9c27b0,color:#000
+  style H fill:#f3e5f5,stroke:#9c27b0,color:#000
+```
+
+## Démo
+
+<video width="100%" height=500 controls muted>
+
+<source src="../assets/videos/Outil_visualisation_donnees.webm" type="video/webm">
+
+</video>

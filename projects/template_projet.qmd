@@ -1,0 +1,95 @@
+---
+title: "Nom du projet"
+subtitle: "Phrase courte expliquant le projet"
+author: "Aurélie Thébault"
+format:
+  html:
+    toc: false
+    page-layout: full
+execute:
+  echo: false
+---
+
+## Résumé du projet
+
+::::: columns
+::: {.column width="60%"}
+**Contexte**\
+Décrire brièvement le contexte du projet.
+
+**Objectif**\
+Quel problème ce projet devait-il résoudre ?
+
+**Résultat**\
+Quel outil, analyse ou produit a été réalisé ?
+:::
+
+::: {.column width="40%"}
+### Technologies
+
+`Python` `Pandas` `DataViz` `Dashboard`
+
+-   R / Python
+-   package ou librairie
+-   framework
+-   visualisation
+-   Git
+
+### Type de projet
+
+-   Analyse de données
+-   Machine learning
+-   Application interactive
+-   Visualisation
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Le problème
+
+Décrire en quelques lignes :
+
+-   le contexte
+-   la difficulté
+-   l’intérêt du projet
+
+> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
+
+------------------------------------------------------------------------
+
+## Mon approche
+
+### 1. Exploration des données
+
+-   analyse exploratoire
+-   visualisations
+-   premières hypothèses
+
+### 2. Préparation des données
+
+-   nettoyage
+-   transformation
+-   feature engineering
+
+### 3. Analyse ou modélisation
+
+-   méthodes utilisées
+-   comparaison d’approches si applicable
+
+### 4. Construction de l’outil
+
+-   dashboard
+-   modèle
+-   visualisation interactive
+
+------------------------------------------------------------------------
+
+## Architecture technique
+```{mermaid}
+flowchart LR
+  A[Données brutes] --> B[Préparation des données]
+  B --> C[Analyse / Modélisation]
+  C --> D[Visualisation]
+  D --> E[Application / Dashboard]
+```

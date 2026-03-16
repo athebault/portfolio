@@ -1,0 +1,39 @@
+---
+title: "Projets"
+---
+
+## Projets de valorisation de données
+
+### Tableau de bord de pilotage d'activité
+
+Etant entrepreneure dans une coopérative d'activité et d'emploi (CAE), toute la partie administrative de mon business est gérée par l"équipe support de la structure et nous avons accès à un outil de suivi développé localement dans la Drôme. Cet outil (Louty) ne propose aucune visualisation de données excepté des tableaux de données, ce qui ne facilite pas la compréhension et le pilotage d'activité. 
+J'ai donc proposé à ma CAE de développer un outil de visualisation afin que chaque entrepreneur puisse faire rapidement un état des lieux de sa situation économique et dispose des chiffres le plus à jour possible. 
+
+[Voir le projet](entrepreneurship_dashboard.qmd)
+
+------------------------------------------------------------------------
+
+### Fichier interactif d'analyses de données
+
+Projet d'exploration et d'analyse descriptive de données, sous format interactif afin que le client profite de la puissance de R sans avoir besoin de coder les analyses
+
+[Voir le projet](interactive_data_analysis.qmd)
+
+------------------------------------------------------------------------
+
+### Visualisation de résultat d'expérimentation 
+
+Outil de diagnostic rapide de résultat d'expérimentation 
+
+[Voir le projet](data_vizualisation.qmd)
+
+------------------------------------------------------------------------
+
+### Classification automatique des références bibliographiques 
+
+Utilisation de LLM pour structurer un référentiel documentaire.
+
+[Voir le projet](nlp_project.qmd)
+
+------------------------------------------------------------------------
+
