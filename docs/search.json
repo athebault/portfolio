@@ -100,37 +100,37 @@
   {
     "objectID": "projects/interactive_data_analysis.html",
     "href": "projects/interactive_data_analysis.html",
-    "title": "Nom du projet",
+    "title": "Analyse de données interactive",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nPour un projet de R&D, le client avait besoind de tester le lien entre plusieurs types de variables d’ordre physico-chimiques et écologiques. Les connaissances en programmation statistiques des ingénieurs internes leur permettaient de faire les analyses, mais de faire retourner tous les scripts à chaque changement de variables. Ils avaient donc besoin d’un outil leur permettant d’optimiser le process d’analyse de données, pour se concentrer sur les interprétations écologiques.\nObjectif\nDévelopper un cadre d’analyses de données permettant de libérer du temps sur la partie visualisation/analyse des données pour se concentrer sur la partie interprétation des résultats.\nRésultat\nDéveloppement d’un outil sous forme de Rmarkdown interactif permettant de choisir rapidement les variables à représenter et interpréter les résultats, sans avoir à coder sous un langage de programmation.\n\n\n\n\nLangage: R\n\npackage: readxl, dplyr, ggplot2, GGally, visdat\nframework web: shiny\nvisualisation: plotly\n\nGit\n\n\n\n\n\nAnalyse de données (descriptive et statistiques)\nTest paramétriques et non paramétriques\nRegression linéaire, corrélation linéaire\nAnalyses multivariées, random forest\nApplication interactive\nVisualisation"
   },
   {
     "objectID": "projects/interactive_data_analysis.html#résumé-du-projet",
     "href": "projects/interactive_data_analysis.html#résumé-du-projet",
-    "title": "Nom du projet",
+    "title": "Analyse de données interactive",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nPour un projet de R&D, le client avait besoind de tester le lien entre plusieurs types de variables d’ordre physico-chimiques et écologiques. Les connaissances en programmation statistiques des ingénieurs internes leur permettaient de faire les analyses, mais de faire retourner tous les scripts à chaque changement de variables. Ils avaient donc besoin d’un outil leur permettant d’optimiser le process d’analyse de données, pour se concentrer sur les interprétations écologiques.\nObjectif\nDévelopper un cadre d’analyses de données permettant de libérer du temps sur la partie visualisation/analyse des données pour se concentrer sur la partie interprétation des résultats.\nRésultat\nDéveloppement d’un outil sous forme de Rmarkdown interactif permettant de choisir rapidement les variables à représenter et interpréter les résultats, sans avoir à coder sous un langage de programmation.\n\n\n\n\nLangage: R\n\npackage: readxl, dplyr, ggplot2, GGally, visdat\nframework web: shiny\nvisualisation: plotly\n\nGit\n\n\n\n\n\nAnalyse de données (descriptive et statistiques)\nTest paramétriques et non paramétriques\nRegression linéaire, corrélation linéaire\nAnalyses multivariées, random forest\nApplication interactive\nVisualisation"
   },
   {
     "objectID": "projects/interactive_data_analysis.html#le-problème",
     "href": "projects/interactive_data_analysis.html#le-problème",
-    "title": "Nom du projet",
+    "title": "Analyse de données interactive",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nPermettre aux équipe de se concentrer sur la recherche de patterns écologiques et l’interprétation des résultats plutôt que dans la réalisation des analyses statistiques. Après s’est mis d’accord sur les analyses descriptives et statistiques à mettre en place, j’ai dévéloppé un fichier Rmarkdown permettant aux équipes d’analyser les relations entre différents types de variables et en tirer les conclusions écologiques, sans avoir à perdre du temps dans la programmation des analyses. Les scripts ont ensuite été livrés au client.\n\nUn outil d’analyse statistique intégrant la puissance de R dans une interface No-Code"
   },
   {
     "objectID": "projects/interactive_data_analysis.html#mon-approche",
     "href": "projects/interactive_data_analysis.html#mon-approche",
-    "title": "Nom du projet",
+    "title": "Analyse de données interactive",
     "section": "Mon approche",
-    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse descriptive et exploratoire\nréalisation du script d’EDA\nchoix des analyses statistiques et visualisation\n\n\n\n2. développement de l’outil\n\nMise en place du fichier Rmarkdown avec selections de variables et filtres interactifs\nExplications livrées au client pour lui permettre, si voulu, de rajouter des blocs dans le fichier markdown pour l’explication des résultats\n\n\n\n3. Livraison de l’outil\n\nMise à disposition de tous les scripts développés\nFormation interne à l’utilisation de l’outil"
   },
   {
     "objectID": "projects/interactive_data_analysis.html#architecture-technique",
     "href": "projects/interactive_data_analysis.html#architecture-technique",
-    "title": "Nom du projet",
+    "title": "Analyse de données interactive",
     "section": "Architecture technique",
-    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  subgraph Données\n    A[Excel formaté] --&gt; B[Chargement]\n  end\n  subgraph Traitement\n    B --&gt; C[Lecture & affichage]\n    C --&gt; D[Scripts d'analyses de données]\n  end\n  subgraph Outils\n    D --&gt; E[\"Choix interactif des analyses - variables, relations, types\"]\n    E --&gt; F[Visualisation]\n  end\n  subgraph Déploiement\n    F --&gt; G[\"Livraison des scripts - format .zip - au client\"]\nend\n\n  style A fill:#e8f4ea,stroke:#4caf50,color:#000\n  style B fill:#e8f4ea,stroke:#4caf50,color:#000\n  style C fill:#e3f0fb,stroke:#2196f3,color:#000\n  style D fill:#e3f0fb,stroke:#2196f3,color:#000\n  style E fill:#fff3e0,stroke:#ff9800,color:#000\n  style F fill:#fff3e0,stroke:#ff9800,color:#000\n  style G fill:#f3e5f5,stroke:#9c27b0,color:#000"
   },
   {
     "objectID": "projects/template_projet.html",
@@ -331,35 +331,35 @@
   {
     "objectID": "projects/bank_scoring.html",
     "href": "projects/bank_scoring.html",
-    "title": "Nom du projet",
+    "title": "Implémentation d’un modèle de scoring",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
   },
   {
     "objectID": "projects/bank_scoring.html#résumé-du-projet",
     "href": "projects/bank_scoring.html#résumé-du-projet",
-    "title": "Nom du projet",
+    "title": "Implémentation d’un modèle de scoring",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
   },
   {
     "objectID": "projects/bank_scoring.html#le-problème",
     "href": "projects/bank_scoring.html#le-problème",
-    "title": "Nom du projet",
+    "title": "Implémentation d’un modèle de scoring",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nVous êtes Data Scientist au sein d’une société financière, nommée “Prêt à dépenser”, qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d’historique de prêt.\nL’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d’autres institutions financières, etc.).\nDe plus, les chargés de relation client ont fait remonter le fait que les clients sont de plus en plus demandeurs de transparence vis-à-vis des décisions d’octroi de crédit. Cette demande de transparence des clients va tout à fait dans le sens des valeurs que l’entreprise veut incarner.\nPrêt à dépenser décide donc de développer un dashboard interactif pour que les chargés de relation client puissent à la fois expliquer de façon la plus transparente possible les décisions d’octroi de crédit, mais également permettre à leurs clients de disposer de leurs informations personnelles et de les explorer facilement.\n\nEtre transparent avec les clients en leur expliquant les raisons menant à la décision."
   },
   {
     "objectID": "projects/bank_scoring.html#mon-approche",
     "href": "projects/bank_scoring.html#mon-approche",
-    "title": "Nom du projet",
+    "title": "Implémentation d’un modèle de scoring",
     "section": "Mon approche",
-    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+    "text": "Mon approche\n\n&lt;p&gt;\nVotre navigateur ne supporte pas l’affichage du PDF. &lt;a href=\"../assets/files/Thebault_Aurelie_3_presentation_052022.pdf\"&gt;Téléchargez-le ici&lt;/a&gt;.\n&lt;/p&gt;"
   },
   {
     "objectID": "projects/bank_scoring.html#architecture-technique",
     "href": "projects/bank_scoring.html#architecture-technique",
-    "title": "Nom du projet",
+    "title": "Implémentation d’un modèle de scoring",
     "section": "Architecture technique",
     "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
   },
@@ -397,5 +397,12 @@
     "title": "Nom du projet",
     "section": "Architecture technique",
     "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html#démo",
+    "href": "projects/interactive_data_analysis.html#démo",
+    "title": "Analyse de données interactive",
+    "section": "Démo",
+    "text": "Démo"
   }
 ]

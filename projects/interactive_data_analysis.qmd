@@ -1,6 +1,6 @@
 ---
-title: "Nom du projet"
-subtitle: "Phrase courte expliquant le projet"
+title: "Analyse de données interactive"
+subtitle: "Outil de routine d'analyse de données"
 author: "Aurélie Thébault"
 format:
   html:
@@ -15,30 +15,30 @@ execute:
 ::::: columns
 ::: {.column width="60%"}
 **Contexte**\
-Décrire brièvement le contexte du projet.
+Pour un projet de R&D, le client avait besoind de tester le lien entre plusieurs types de variables d'ordre physico-chimiques et écologiques. Les connaissances en programmation statistiques des ingénieurs internes leur permettaient de faire les analyses, mais de faire retourner tous les scripts à chaque changement de variables. Ils avaient donc besoin d'un outil leur permettant d'optimiser le process d'analyse de données, pour se concentrer sur les interprétations écologiques.
 
 **Objectif**\
-Quel problème ce projet devait-il résoudre ?
+Développer un cadre d'analyses de données permettant de libérer du temps sur la partie visualisation/analyse des données pour se concentrer sur la partie interprétation des résultats. 
 
 **Résultat**\
-Quel outil, analyse ou produit a été réalisé ?
+Développement d'un outil sous forme de Rmarkdown interactif permettant de choisir rapidement les variables à représenter et interpréter les résultats, sans avoir à coder sous un langage de programmation.
 :::
 
 ::: {.column width="40%"}
 ### Technologies
 
-`Python` `Pandas` `DataViz` `Dashboard`
-
--   R / Python
--   package ou librairie
--   framework
--   visualisation
--   Git
+-   Langage: `R`
+    -   package: **readxl**, **dplyr**, **ggplot2**, **GGally**, **visdat**
+    -   framework web: `shiny`
+    -   visualisation: **plotly**
+-   `Git`
 
 ### Type de projet
 
--   Analyse de données
--   Machine learning
+-   Analyse de données (descriptive et statistiques)
+-   Test paramétriques et non paramétriques
+-   Regression linéaire, corrélation linéaire
+-   Analyses multivariées, random forest
 -   Application interactive
 -   Visualisation
 :::
@@ -48,13 +48,9 @@ Quel outil, analyse ou produit a été réalisé ?
 
 ## Le problème
 
-Décrire en quelques lignes :
+Permettre aux équipe de se concentrer sur la recherche de patterns écologiques et l'interprétation des résultats plutôt que dans la réalisation des analyses statistiques. Après s'est mis d'accord sur les analyses descriptives et statistiques à mettre en place, j'ai dévéloppé un fichier Rmarkdown permettant aux équipes d'analyser les relations entre différents types de variables et en tirer les conclusions écologiques, sans avoir à perdre du temps dans la programmation des analyses. Les scripts ont ensuite été livrés au client. 
 
--   le contexte
--   la difficulté
--   l’intérêt du projet
-
-> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
+> Un outil d'analyse statistique intégrant la puissance de R dans une interface No-Code
 
 ------------------------------------------------------------------------
 
@@ -62,34 +58,52 @@ Décrire en quelques lignes :
 
 ### 1. Exploration des données
 
--   analyse exploratoire
--   visualisations
--   premières hypothèses
+-   analyse descriptive et exploratoire
+-   réalisation du script d'EDA
+-   choix des analyses statistiques et visualisation
 
-### 2. Préparation des données
+### 2. développement de l'outil
 
--   nettoyage
--   transformation
--   feature engineering
+-   Mise en place du fichier Rmarkdown avec selections de variables et filtres interactifs
+-   Explications livrées au client pour lui permettre, si voulu, de rajouter des blocs dans le fichier markdown pour l'explication des résultats
 
-### 3. Analyse ou modélisation
+### 3. Livraison de l’outil
 
--   méthodes utilisées
--   comparaison d’approches si applicable
-
-### 4. Construction de l’outil
-
--   dashboard
--   modèle
--   visualisation interactive
-
-------------------------------------------------------------------------
+-   Mise à disposition de tous les scripts développés
+-   Formation interne à l'utilisation de l'outil
 
 ## Architecture technique
+
 ```{mermaid}
 flowchart LR
-  A[Données brutes] --> B[Préparation des données]
-  B --> C[Analyse / Modélisation]
-  C --> D[Visualisation]
-  D --> E[Application / Dashboard]
+  subgraph Données
+    A[Excel formaté] --> B[Chargement]
+  end
+  subgraph Traitement
+    B --> C[Lecture & affichage]
+    C --> D[Scripts d'analyses de données]
+  end
+  subgraph Outils
+    D --> E["Choix interactif des analyses - variables, relations, types"]
+    E --> F[Visualisation]
+  end
+  subgraph Déploiement
+    F --> G["Livraison des scripts - format .zip - au client"]
+end
+
+  style A fill:#e8f4ea,stroke:#4caf50,color:#000
+  style B fill:#e8f4ea,stroke:#4caf50,color:#000
+  style C fill:#e3f0fb,stroke:#2196f3,color:#000
+  style D fill:#e3f0fb,stroke:#2196f3,color:#000
+  style E fill:#fff3e0,stroke:#ff9800,color:#000
+  style F fill:#fff3e0,stroke:#ff9800,color:#000
+  style G fill:#f3e5f5,stroke:#9c27b0,color:#000
 ```
+
+## Démo
+
+<video width="100%" height=500 controls muted>
+
+<source src="../assets/videos/outil_analyse_donnees.mp4" type="video/mp4">
+
+</video>

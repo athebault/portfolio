@@ -8,7 +8,7 @@
 
 <meta name="author" content="Aurélie Thébault">
 
-<title>Nom du projet – Aurélie Thébault</title>
+<title>Analyse de données interactive – Aurélie Thébault</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,8 +126,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Nom du projet</h1>
-<p class="subtitle lead">Phrase courte expliquant le projet</p>
+<h1 class="title">Analyse de données interactive</h1>
+<p class="subtitle lead">Outil de routine d’analyse de données</p>
 </div>
 
 
@@ -155,28 +155,31 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><strong>Contexte</strong><br>
-Décrire brièvement le contexte du projet.</p>
+Pour un projet de R&amp;D, le client avait besoind de tester le lien entre plusieurs types de variables d’ordre physico-chimiques et écologiques. Les connaissances en programmation statistiques des ingénieurs internes leur permettaient de faire les analyses, mais de faire retourner tous les scripts à chaque changement de variables. Ils avaient donc besoin d’un outil leur permettant d’optimiser le process d’analyse de données, pour se concentrer sur les interprétations écologiques.</p>
 <p><strong>Objectif</strong><br>
-Quel problème ce projet devait-il résoudre ?</p>
+Développer un cadre d’analyses de données permettant de libérer du temps sur la partie visualisation/analyse des données pour se concentrer sur la partie interprétation des résultats.</p>
 <p><strong>Résultat</strong><br>
-Quel outil, analyse ou produit a été réalisé ?</p>
+Développement d’un outil sous forme de Rmarkdown interactif permettant de choisir rapidement les variables à représenter et interpréter les résultats, sans avoir à coder sous un langage de programmation.</p>
 </div><div class="column" style="width:40%;">
 <section id="technologies" class="level3">
 <h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
-<p><code>Python</code> <code>Pandas</code> <code>DataViz</code> <code>Dashboard</code></p>
 <ul>
-<li>R / Python</li>
-<li>package ou librairie</li>
-<li>framework</li>
-<li>visualisation</li>
-<li>Git</li>
+<li>Langage: <code>R</code>
+<ul>
+<li>package: <strong>readxl</strong>, <strong>dplyr</strong>, <strong>ggplot2</strong>, <strong>GGally</strong>, <strong>visdat</strong></li>
+<li>framework web: <code>shiny</code></li>
+<li>visualisation: <strong>plotly</strong></li>
+</ul></li>
+<li><code>Git</code></li>
 </ul>
 </section>
 <section id="type-de-projet" class="level3">
 <h3 class="anchored" data-anchor-id="type-de-projet">Type de projet</h3>
 <ul>
-<li>Analyse de données</li>
-<li>Machine learning</li>
+<li>Analyse de données (descriptive et statistiques)</li>
+<li>Test paramétriques et non paramétriques</li>
+<li>Regression linéaire, corrélation linéaire</li>
+<li>Analyses multivariées, random forest</li>
 <li>Application interactive</li>
 <li>Visualisation</li>
 </ul>
@@ -187,14 +190,9 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 </section>
 <section id="le-problème" class="level2">
 <h2 class="anchored" data-anchor-id="le-problème">Le problème</h2>
-<p>Décrire en quelques lignes :</p>
-<ul>
-<li>le contexte</li>
-<li>la difficulté</li>
-<li>l’intérêt du projet</li>
-</ul>
+<p>Permettre aux équipe de se concentrer sur la recherche de patterns écologiques et l’interprétation des résultats plutôt que dans la réalisation des analyses statistiques. Après s’est mis d’accord sur les analyses descriptives et statistiques à mettre en place, j’ai dévéloppé un fichier Rmarkdown permettant aux équipes d’analyser les relations entre différents types de variables et en tirer les conclusions écologiques, sans avoir à perdre du temps dans la programmation des analyses. Les scripts ont ensuite été livrés au client.</p>
 <blockquote class="blockquote">
-<p>Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.</p>
+<p>Un outil d’analyse statistique intégrant la puissance de R dans une interface No-Code</p>
 </blockquote>
 <hr>
 </section>
@@ -203,34 +201,24 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 <section id="exploration-des-données" class="level3">
 <h3 class="anchored" data-anchor-id="exploration-des-données">1. Exploration des données</h3>
 <ul>
-<li>analyse exploratoire</li>
-<li>visualisations</li>
-<li>premières hypothèses</li>
+<li>analyse descriptive et exploratoire</li>
+<li>réalisation du script d’EDA</li>
+<li>choix des analyses statistiques et visualisation</li>
 </ul>
 </section>
-<section id="préparation-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="préparation-des-données">2. Préparation des données</h3>
+<section id="développement-de-loutil" class="level3">
+<h3 class="anchored" data-anchor-id="développement-de-loutil">2. développement de l’outil</h3>
 <ul>
-<li>nettoyage</li>
-<li>transformation</li>
-<li>feature engineering</li>
+<li>Mise en place du fichier Rmarkdown avec selections de variables et filtres interactifs</li>
+<li>Explications livrées au client pour lui permettre, si voulu, de rajouter des blocs dans le fichier markdown pour l’explication des résultats</li>
 </ul>
 </section>
-<section id="analyse-ou-modélisation" class="level3">
-<h3 class="anchored" data-anchor-id="analyse-ou-modélisation">3. Analyse ou modélisation</h3>
+<section id="livraison-de-loutil" class="level3">
+<h3 class="anchored" data-anchor-id="livraison-de-loutil">3. Livraison de l’outil</h3>
 <ul>
-<li>méthodes utilisées</li>
-<li>comparaison d’approches si applicable</li>
+<li>Mise à disposition de tous les scripts développés</li>
+<li>Formation interne à l’utilisation de l’outil</li>
 </ul>
-</section>
-<section id="construction-de-loutil" class="level3">
-<h3 class="anchored" data-anchor-id="construction-de-loutil">4. Construction de l’outil</h3>
-<ul>
-<li>dashboard</li>
-<li>modèle</li>
-<li>visualisation interactive</li>
-</ul>
-<hr>
 </section>
 </section>
 <section id="architecture-technique" class="level2">
@@ -241,16 +229,40 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A[Données brutes] --&gt; B[Préparation des données]
-  B --&gt; C[Analyse / Modélisation]
-  C --&gt; D[Visualisation]
-  D --&gt; E[Application / Dashboard]
+  subgraph Données
+    A[Excel formaté] --&gt; B[Chargement]
+  end
+  subgraph Traitement
+    B --&gt; C[Lecture &amp; affichage]
+    C --&gt; D[Scripts d'analyses de données]
+  end
+  subgraph Outils
+    D --&gt; E["Choix interactif des analyses - variables, relations, types"]
+    E --&gt; F[Visualisation]
+  end
+  subgraph Déploiement
+    F --&gt; G["Livraison des scripts - format .zip - au client"]
+end
+
+  style A fill:#e8f4ea,stroke:#4caf50,color:#000
+  style B fill:#e8f4ea,stroke:#4caf50,color:#000
+  style C fill:#e3f0fb,stroke:#2196f3,color:#000
+  style D fill:#e3f0fb,stroke:#2196f3,color:#000
+  style E fill:#fff3e0,stroke:#ff9800,color:#000
+  style F fill:#fff3e0,stroke:#ff9800,color:#000
+  style G fill:#f3e5f5,stroke:#9c27b0,color:#000
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
+</section>
+<section id="démo" class="level2">
+<h2 class="anchored" data-anchor-id="démo">Démo</h2>
+<video width="100%" height="500" controls="" muted="">
+<source src="../assets/videos/outil_analyse_donnees.mp4" type="video/mp4">
+</video>
 
 
 </section>
