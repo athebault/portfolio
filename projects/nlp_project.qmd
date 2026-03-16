@@ -15,32 +15,30 @@ execute:
 ::::: columns
 ::: {.column width="60%"}
 **Contexte**\
-Décrire brièvement le contexte du projet.
+Les notices bibliographiques produites par l'enseignement supérieur sont actuellemenet indexées à la main en fonction d'une notice d'indexation reconnus et structurée. Avec l'augmentation constante de la production scientifique, la méthode manuelle devient difficile à maintenant et peut devenir source d'erreur et de retard dans l'indexation des notices et leur mise à disposition pour le public.
 
 **Objectif**\
-Quel problème ce projet devait-il résoudre ?
+Evaluer la faisabilité d'une indexation automatique par des méthodes d'apprentissage supervisé.
 
 **Résultat**\
-Quel outil, analyse ou produit a été réalisé ?
+L'étude de plusieurs modèles de deep learning a permis de montrer que l'erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices.
+L'utilisation de l'IA comme outil d'aide à l'indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels. 
 :::
 
 ::: {.column width="40%"}
 ### Technologies
 
-`Python` `Pandas` `DataViz` `Dashboard`
-
--   R / Python
--   package ou librairie
--   framework
--   visualisation
--   Git
+-   Langage: `Python`
+    -   package: **pandas**, **scikit-learn**, **tensorflow**, **annif**, **yellowbrick**
+    -   visualisation: **PIL**, **seaborn**, **plotly**, **wordcloud**
+-   `Git`
 
 ### Type de projet
 
--   Analyse de données
--   Machine learning
--   Application interactive
--   Visualisation
+-   Classification multilabel extrême
+-   Réseaux de neurones (CNN)
+-   Evaluation de performances
+-   Fine-tuning
 :::
 :::::
 
@@ -48,48 +46,6 @@ Quel outil, analyse ou produit a été réalisé ?
 
 ## Le problème
 
-Décrire en quelques lignes :
+Actuellement, l'indexation des notices bibliographiques sont réalisées à la main. Avec l'augmentation des productions scientifiques, une indexation manuelle humaine montre ses limites. L'objectif de ce projet était de montrer la faisabilité d'une indexation [Rameau](https://rameau.bnf.fr/) de qualité satisfaisante au moyen d'une intelligence artificielle (IA) afin d'aider les catalogueurs de monographie du Sudoc à indexer les monographies.
 
--   le contexte
--   la difficulté
--   l’intérêt du projet
-
-> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
-
-------------------------------------------------------------------------
-
-## Mon approche
-
-### 1. Exploration des données
-
--   analyse exploratoire
--   visualisations
--   premières hypothèses
-
-### 2. Préparation des données
-
--   nettoyage
--   transformation
--   feature engineering
-
-### 3. Analyse ou modélisation
-
--   méthodes utilisées
--   comparaison d’approches si applicable
-
-### 4. Construction de l’outil
-
--   dashboard
--   modèle
--   visualisation interactive
-
-------------------------------------------------------------------------
-
-## Architecture technique
-```{mermaid}
-flowchart LR
-  A[Données brutes] --> B[Préparation des données]
-  B --> C[Analyse / Modélisation]
-  C --> D[Visualisation]
-  D --> E[Application / Dashboard]
-```
+> Lorsque l'IA peut faciliter le travail fastidieux des catalogueurs.

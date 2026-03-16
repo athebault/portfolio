@@ -10,7 +10,7 @@ Je suis data scientist avec un background en écologie scientifique. Je dévelop
 
 ## Projets
 
-::::::: grid
+::::::::: grid
 ::: g-col-4
 ### Pilotage d'activité entrepreneuriale
 
@@ -36,7 +36,7 @@ Application interactive pour la génération d'analyses descriptives et la gén�
 :::
 
 ::: g-col-4
-### LLM pour le référencement bibliographique 
+### LLM pour le référencement bibliographique
 
 Calibration d'un modèle de langage pour l'élaboration d'un outil d'aide au référencement des notices bibliographiques de l'enseignement supérieur.
 
@@ -44,21 +44,21 @@ Calibration d'un modèle de langage pour l'élaboration d'un outil d'aide au ré
 :::
 
 ::: g-col-4
-### Prototype d'application: l'eco-score de nos produits 
+### Prototype d'application: l'eco-score de nos produits
 
-*Travail de formation:* Valorisation des données de la base ouverte OpenFoodFacts pour créer un éco-score des produits et système de recommandation de produits alternatifs. 
+*Travail de formation:* Valorisation des données de la base ouverte OpenFoodFacts pour créer un éco-score des produits et système de recommandation de produits alternatifs.
 
 [Voir le projet](projects/openfoodfacts_ecoscore.qmd)
 :::
 
 ::: g-col-4
-### Optimisation d'un modèle de scoring bancaire 
+### Optimisation d'un modèle de scoring bancaire
 
 *Travail de formation:* Calibration d'un modèle de prédiction d'attribution de prêt bancaire et déploiement d'un tableau de bord d'explication pour le personnel bancaire
 
 [Voir le projet](projects/bank_scoring.qmd)
 :::
-:::::::
+:::::::::
 
 ## Mes clients
 
@@ -83,7 +83,7 @@ Calibration d'un modèle de langage pour l'élaboration d'un outil d'aide au ré
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | #### Organismes de formation                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| +------------------------------------------------------------------------------+-----------------------------------+-------------------------------------------------------------------------------------------------------+                                                                                                                                                                                                                                                                    |
-| | [![](assets/img/logo-datavalue.png){width="200"}](https://www.datavalue.fr/) |                                   | [![](assets/img/logo_campusnum_fond-blanc-190x190.jpg){width="200"}](https://le-campus-numerique.fr/) |                                                                                                                                                                                                                                                                    |
-| +------------------------------------------------------------------------------+-----------------------------------+-------------------------------------------------------------------------------------------------------+                                                                                                                                                                                                                                                                    |
+| |  |  |  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| |----|----|----|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| | [![](assets/img/logo-datavalue.png){width="200"}](https://www.datavalue.fr/) |  | [![](assets/img/logo_campusnum_fond-blanc-190x190.jpg){width="200"}](https://le-campus-numerique.fr/) |                                                                                                                                                                                                                                                                                                     |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Aurélie Thébault">
 
-<title>Nom du projet – Aurélie Thébault</title>
+<title>Prototype d’application de santé publique – Aurélie Thébault</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,10 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -126,8 +122,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Nom du projet</h1>
-<p class="subtitle lead">Phrase courte expliquant le projet</p>
+<h1 class="title">Prototype d’application de santé publique</h1>
+<p class="subtitle lead">Outil d’aide à la décision pour l’attribution d’un crédit</p>
 </div>
 
 
@@ -155,102 +151,67 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><strong>Contexte</strong><br>
-Décrire brièvement le contexte du projet.</p>
-<p><strong>Objectif</strong><br>
-Quel problème ce projet devait-il résoudre ?</p>
-<p><strong>Résultat</strong><br>
-Quel outil, analyse ou produit a été réalisé ?</p>
+Projet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.</p>
+<p><strong>Objectifs</strong><br>
+Simulation de réponse à un appel à projet pour trouver des idées innovantes d’applications en lien avec l’alimentation, sur la base des données de la base Open Food Facts. L’appel à projets spécifie que l’analyse doit être simple à comprendre pour un public néophyte.</p>
+<p><strong>Livrable:</strong><br>
+Un protoytype d’application innovante, sur le modèle de l’application <a href="https://yuka.io/">Yuka</a>, permettant d’obtenir, pour chaque produit de la base de données, un eco-score basé sur des caractéristiques de soutenabillité du produit, et une liste de produits alternatifs avec un meilleur eco-score. L’Eco-Score produit est calculé sur la base de 5 notes liées aux enjeux planétaires:</p>
+<ul>
+<li>Santé : nutriscore et additifs</li>
+<li>Durable: labels bio et agriculture durable</li>
+<li>Ethique : labels éthiques (Fair-trade, Max-Havelaar)</li>
+<li>Carbone : empreinte carbone et zone de production/transformation</li>
+<li>Zéro-Déchet : nature de l’emballage</li>
+</ul>
 </div><div class="column" style="width:40%;">
 <section id="technologies" class="level3">
 <h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
-<p><code>Python</code> <code>Pandas</code> <code>DataViz</code> <code>Dashboard</code></p>
 <ul>
-<li>R / Python</li>
-<li>package ou librairie</li>
-<li>framework</li>
-<li>visualisation</li>
-<li>Git</li>
+<li>Langage: <code>Python</code>
+<ul>
+<li>package: <strong>pandas</strong>, <strong>scikit-learn</strong>, <strong>missingno</strong>, <strong>nltk</strong></li>
+<li>visualisation: <strong>plotly</strong>, <strong>wordcloud</strong>, <strong>seaborn</strong>, <strong>folium</strong></li>
+</ul></li>
+<li><code>Git</code></li>
 </ul>
 </section>
 <section id="type-de-projet" class="level3">
 <h3 class="anchored" data-anchor-id="type-de-projet">Type de projet</h3>
 <ul>
-<li>Analyse de données</li>
-<li>Machine learning</li>
-<li>Application interactive</li>
+<li>Exploration des données: formatage, nettoyage, imputation</li>
+<li>Mise en place de pipelines de traitement de données et d’entrainement de modèles</li>
+<li>Création d’indicateurs</li>
+<li>Développement d’un système de recommandation</li>
 <li>Visualisation</li>
 </ul>
 </section>
 </div>
 </div>
 <hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/img/img_coursedurables.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 </section>
 <section id="le-problème" class="level2">
 <h2 class="anchored" data-anchor-id="le-problème">Le problème</h2>
-<p>Décrire en quelques lignes :</p>
-<ul>
-<li>le contexte</li>
-<li>la difficulté</li>
-<li>l’intérêt du projet</li>
-</ul>
+<p>Vous êtes Data Scientist au sein d’une société financière, nommée “Prêt à dépenser”, qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d’historique de prêt.</p>
+<p>L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d’autres institutions financières, etc.).</p>
+<p>De plus, les chargés de relation client ont fait remonter le fait que les clients sont de plus en plus demandeurs de transparence vis-à-vis des décisions d’octroi de crédit. Cette demande de transparence des clients va tout à fait dans le sens des valeurs que l’entreprise veut incarner.</p>
+<p>Prêt à dépenser décide donc de développer un dashboard interactif pour que les chargés de relation client puissent à la fois expliquer de façon la plus transparente possible les décisions d’octroi de crédit, mais également permettre à leurs clients de disposer de leurs informations personnelles et de les explorer facilement.</p>
 <blockquote class="blockquote">
-<p>Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.</p>
+<p>Etre transparent avec les clients en leur expliquant les raisons menant à la décision.</p>
 </blockquote>
 <hr>
 </section>
 <section id="mon-approche" class="level2">
 <h2 class="anchored" data-anchor-id="mon-approche">Mon approche</h2>
-<section id="exploration-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="exploration-des-données">1. Exploration des données</h3>
-<ul>
-<li>analyse exploratoire</li>
-<li>visualisations</li>
-<li>premières hypothèses</li>
-</ul>
-</section>
-<section id="préparation-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="préparation-des-données">2. Préparation des données</h3>
-<ul>
-<li>nettoyage</li>
-<li>transformation</li>
-<li>feature engineering</li>
-</ul>
-</section>
-<section id="analyse-ou-modélisation" class="level3">
-<h3 class="anchored" data-anchor-id="analyse-ou-modélisation">3. Analyse ou modélisation</h3>
-<ul>
-<li>méthodes utilisées</li>
-<li>comparaison d’approches si applicable</li>
-</ul>
-</section>
-<section id="construction-de-loutil" class="level3">
-<h3 class="anchored" data-anchor-id="construction-de-loutil">4. Construction de l’outil</h3>
-<ul>
-<li>dashboard</li>
-<li>modèle</li>
-<li>visualisation interactive</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="architecture-technique" class="level2">
-<h2 class="anchored" data-anchor-id="architecture-technique">Architecture technique</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Données brutes] --&gt; B[Préparation des données]
-  B --&gt; C[Analyse / Modélisation]
-  C --&gt; D[Visualisation]
-  D --&gt; E[Application / Dashboard]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<iframe src="../assets/files/PSanté_04_presentation.pdf" width="100%" height="600px">
+<p>
+Votre navigateur ne supporte pas l’affichage du PDF. <a href="../assets/files/PSanté_04_presentation.pdf">Téléchargez-le ici</a>.
+</p>
+</iframe>
 
 
 </section>

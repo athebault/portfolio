@@ -9,11 +9,11 @@ title: "Qui Suis-je"
 |                                                     |                                                                                                                                                                     |
 |                                                     | Mes domaines d'intérêt :                                                                                                                                            |
 |                                                     |                                                                                                                                                                     |
-|                                                     | -   analyse de données                                                                                                                                              |
-|                                                     | -   data science                                                                                                                                                    |
-|                                                     | -   visualisation                                                                                                                                                   |
+|                                                     | -   extraction et exploration de données                                                                                                                            |
+|                                                     | -   data science (machine learning, optimisation de modèles)                                                                                                        |
+|                                                     | -   data-viz et infographies                                                                                                                                        |
 |                                                     | -   outils interactifs                                                                                                                                              |
-|                                                     | -   pédagogie scientifique                                                                                                                                          |
+|                                                     | -   Formation et ludopédagogie                                                                                                                                      |
 +-----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Projets

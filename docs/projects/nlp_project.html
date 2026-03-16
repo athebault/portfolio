@@ -69,10 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -155,30 +151,30 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><strong>Contexte</strong><br>
-Décrire brièvement le contexte du projet.</p>
+Les notices bibliographiques produites par l’enseignement supérieur sont actuellemenet indexées à la main en fonction d’une notice d’indexation reconnus et structurée. Avec l’augmentation constante de la production scientifique, la méthode manuelle devient difficile à maintenant et peut devenir source d’erreur et de retard dans l’indexation des notices et leur mise à disposition pour le public.</p>
 <p><strong>Objectif</strong><br>
-Quel problème ce projet devait-il résoudre ?</p>
+Evaluer la faisabilité d’une indexation automatique par des méthodes d’apprentissage supervisé.</p>
 <p><strong>Résultat</strong><br>
-Quel outil, analyse ou produit a été réalisé ?</p>
+L’étude de plusieurs modèles de deep learning a permis de montrer que l’erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices. L’utilisation de l’IA comme outil d’aide à l’indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels.</p>
 </div><div class="column" style="width:40%;">
 <section id="technologies" class="level3">
 <h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
-<p><code>Python</code> <code>Pandas</code> <code>DataViz</code> <code>Dashboard</code></p>
 <ul>
-<li>R / Python</li>
-<li>package ou librairie</li>
-<li>framework</li>
-<li>visualisation</li>
-<li>Git</li>
+<li>Langage: <code>Python</code>
+<ul>
+<li>package: <strong>pandas</strong>, <strong>scikit-learn</strong>, <strong>tensorflow</strong>, <strong>annif</strong>, <strong>yellowbrick</strong></li>
+<li>visualisation: <strong>PIL</strong>, <strong>seaborn</strong>, <strong>plotly</strong>, <strong>wordcloud</strong></li>
+</ul></li>
+<li><code>Git</code></li>
 </ul>
 </section>
 <section id="type-de-projet" class="level3">
 <h3 class="anchored" data-anchor-id="type-de-projet">Type de projet</h3>
 <ul>
-<li>Analyse de données</li>
-<li>Machine learning</li>
-<li>Application interactive</li>
-<li>Visualisation</li>
+<li>Classification multilabel extrême</li>
+<li>Réseaux de neurones (CNN)</li>
+<li>Evaluation de performances</li>
+<li>Fine-tuning</li>
 </ul>
 </section>
 </div>
@@ -187,70 +183,10 @@ Quel outil, analyse ou produit a été réalisé ?</p>
 </section>
 <section id="le-problème" class="level2">
 <h2 class="anchored" data-anchor-id="le-problème">Le problème</h2>
-<p>Décrire en quelques lignes :</p>
-<ul>
-<li>le contexte</li>
-<li>la difficulté</li>
-<li>l’intérêt du projet</li>
-</ul>
+<p>Actuellement, l’indexation des notices bibliographiques sont réalisées à la main. Avec l’augmentation des productions scientifiques, une indexation manuelle humaine montre ses limites. L’objectif de ce projet était de montrer la faisabilité d’une indexation <a href="https://rameau.bnf.fr/">Rameau</a> de qualité satisfaisante au moyen d’une intelligence artificielle (IA) afin d’aider les catalogueurs de monographie du Sudoc à indexer les monographies.</p>
 <blockquote class="blockquote">
-<p>Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.</p>
+<p>Lorsque l’IA peut faciliter le travail fastidieux des catalogueurs.</p>
 </blockquote>
-<hr>
-</section>
-<section id="mon-approche" class="level2">
-<h2 class="anchored" data-anchor-id="mon-approche">Mon approche</h2>
-<section id="exploration-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="exploration-des-données">1. Exploration des données</h3>
-<ul>
-<li>analyse exploratoire</li>
-<li>visualisations</li>
-<li>premières hypothèses</li>
-</ul>
-</section>
-<section id="préparation-des-données" class="level3">
-<h3 class="anchored" data-anchor-id="préparation-des-données">2. Préparation des données</h3>
-<ul>
-<li>nettoyage</li>
-<li>transformation</li>
-<li>feature engineering</li>
-</ul>
-</section>
-<section id="analyse-ou-modélisation" class="level3">
-<h3 class="anchored" data-anchor-id="analyse-ou-modélisation">3. Analyse ou modélisation</h3>
-<ul>
-<li>méthodes utilisées</li>
-<li>comparaison d’approches si applicable</li>
-</ul>
-</section>
-<section id="construction-de-loutil" class="level3">
-<h3 class="anchored" data-anchor-id="construction-de-loutil">4. Construction de l’outil</h3>
-<ul>
-<li>dashboard</li>
-<li>modèle</li>
-<li>visualisation interactive</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="architecture-technique" class="level2">
-<h2 class="anchored" data-anchor-id="architecture-technique">Architecture technique</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Données brutes] --&gt; B[Préparation des données]
-  B --&gt; C[Analyse / Modélisation]
-  C --&gt; D[Visualisation]
-  D --&gt; E[Application / Dashboard]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
 
 
 </section>

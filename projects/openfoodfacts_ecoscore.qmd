@@ -1,6 +1,6 @@
 ---
-title: "Nom du projet"
-subtitle: "Phrase courte expliquant le projet"
+title: "Prototype d'application de santé publique"
+subtitle: "Outil d'aide à la décision pour l'attribution d'un crédit"
 author: "Aurélie Thébault"
 format:
   html:
@@ -8,6 +8,9 @@ format:
     page-layout: full
 execute:
   echo: false
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Résumé du projet
@@ -15,81 +18,90 @@ execute:
 ::::: columns
 ::: {.column width="60%"}
 **Contexte**\
-Décrire brièvement le contexte du projet.
+Projet réalisé dans le cadre de la certification Data Scientist par
+OpenClassRoom et Centrale Supelec.
 
-**Objectif**\
-Quel problème ce projet devait-il résoudre ?
+**Objectifs**\
+Simulation de réponse à un appel à projet pour trouver des idées
+innovantes d’applications en lien avec l'alimentation, sur la base des
+données de la base Open Food Facts. L’appel à projets spécifie que
+l’analyse doit être simple à comprendre pour un public néophyte.
 
-**Résultat**\
-Quel outil, analyse ou produit a été réalisé ?
+**Livrable:**\
+Un protoytype d'application innovante, sur le modèle de l'application
+[Yuka](https://yuka.io/), permettant d'obtenir, pour chaque produit de
+la base de données, un eco-score basé sur des caractéristiques de
+soutenabillité du produit, et une liste de produits alternatifs avec un
+meilleur eco-score. L'Eco-Score produit est calculé sur la base de 5
+notes liées aux enjeux planétaires:
+
+-   Santé : nutriscore et additifs
+-   Durable: labels bio et agriculture durable
+-   Ethique : labels éthiques (Fair-trade, Max-Havelaar)
+-   Carbone : empreinte carbone et zone de production/transformation
+-   Zéro-Déchet : nature de l'emballage
 :::
 
 ::: {.column width="40%"}
 ### Technologies
 
-`Python` `Pandas` `DataViz` `Dashboard`
-
--   R / Python
--   package ou librairie
--   framework
--   visualisation
--   Git
+-   Langage: `Python`
+    -   package: **pandas**, **scikit-learn**, **missingno**, **nltk**
+    -   visualisation: **plotly**, **wordcloud**, **seaborn**,
+        **folium**
+-   `Git`
 
 ### Type de projet
 
--   Analyse de données
--   Machine learning
--   Application interactive
+-   Exploration des données: formatage, nettoyage, imputation
+-   Mise en place de pipelines de traitement de données et
+    d'entrainement de modèles
+-   Création d'indicateurs
+-   Développement d'un système de recommandation
 -   Visualisation
 :::
 :::::
 
 ------------------------------------------------------------------------
 
+![](/assets/img/img_coursedurables.png){fig-align="center"}
+
 ## Le problème
 
-Décrire en quelques lignes :
+Vous êtes Data Scientist au sein d'une société financière, nommée "Prêt
+à dépenser", qui propose des crédits à la consommation pour des
+personnes ayant peu ou pas du tout d'historique de prêt.
 
--   le contexte
--   la difficulté
--   l’intérêt du projet
+L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour
+calculer la probabilité qu’un client rembourse son crédit, puis
+classifie la demande en crédit accordé ou refusé. Elle souhaite donc
+développer un algorithme de classification en s’appuyant sur des sources
+de données variées (données comportementales, données provenant d'autres
+institutions financières, etc.).
 
-> Une phrase clé peut être mise en évidence ici pour résumer l’enjeu principal.
+De plus, les chargés de relation client ont fait remonter le fait que
+les clients sont de plus en plus demandeurs de transparence vis-à-vis
+des décisions d’octroi de crédit. Cette demande de transparence des
+clients va tout à fait dans le sens des valeurs que l’entreprise veut
+incarner.
+
+Prêt à dépenser décide donc de développer un dashboard interactif pour
+que les chargés de relation client puissent à la fois expliquer de façon
+la plus transparente possible les décisions d’octroi de crédit, mais
+également permettre à leurs clients de disposer de leurs informations
+personnelles et de les explorer facilement.
+
+> Etre transparent avec les clients en leur expliquant les raisons
+> menant à la décision.
 
 ------------------------------------------------------------------------
 
 ## Mon approche
 
-### 1. Exploration des données
+<iframe src="../assets/files/PSanté_04_presentation.pdf" width="100%" height="600px">
 
--   analyse exploratoire
--   visualisations
--   premières hypothèses
+<p>Votre navigateur ne supporte pas l'affichage du PDF.
+<a href="../assets/files/PSanté_04_presentation.pdf">Téléchargez-le
+ici</a>.</p>
 
-### 2. Préparation des données
-
--   nettoyage
--   transformation
--   feature engineering
-
-### 3. Analyse ou modélisation
-
--   méthodes utilisées
--   comparaison d’approches si applicable
-
-### 4. Construction de l’outil
-
--   dashboard
--   modèle
--   visualisation interactive
-
-------------------------------------------------------------------------
-
-## Architecture technique
-```{mermaid}
-flowchart LR
-  A[Données brutes] --> B[Préparation des données]
-  B --> C[Analyse / Modélisation]
-  C --> D[Visualisation]
-  D --> E[Application / Dashboard]
-```
+</iframe>

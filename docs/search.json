@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "Qui Suis-je",
     "section": "",
-    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nanalyse de données\ndata science\nvisualisation\noutils interactifs\npédagogie scientifique"
+    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nextraction et exploration de données\ndata science (machine learning, optimisation de modèles)\ndata-viz et infographies\noutils interactifs\nFormation et ludopédagogie"
   },
   {
     "objectID": "about.html#à-propos",
     "href": "about.html#à-propos",
     "title": "Qui Suis-je",
     "section": "",
-    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nanalyse de données\ndata science\nvisualisation\noutils interactifs\npédagogie scientifique"
+    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nextraction et exploration de données\ndata science (machine learning, optimisation de modèles)\ndata-viz et infographies\noutils interactifs\nFormation et ludopédagogie"
   },
   {
     "objectID": "about.html#projets",
@@ -30,30 +30,30 @@
   {
     "objectID": "projects/openfoodfacts_ecoscore.html",
     "href": "projects/openfoodfacts_ecoscore.html",
-    "title": "Nom du projet",
+    "title": "Prototype d’application de santé publique",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\nSimulation de réponse à un appel à projet pour trouver des idées innovantes d’applications en lien avec l’alimentation, sur la base des données de la base Open Food Facts. L’appel à projets spécifie que l’analyse doit être simple à comprendre pour un public néophyte.\nLivrable:\nUn protoytype d’application innovante, sur le modèle de l’application Yuka, permettant d’obtenir, pour chaque produit de la base de données, un eco-score basé sur des caractéristiques de soutenabillité du produit, et une liste de produits alternatifs avec un meilleur eco-score. L’Eco-Score produit est calculé sur la base de 5 notes liées aux enjeux planétaires:\n\nSanté : nutriscore et additifs\nDurable: labels bio et agriculture durable\nEthique : labels éthiques (Fair-trade, Max-Havelaar)\nCarbone : empreinte carbone et zone de production/transformation\nZéro-Déchet : nature de l’emballage\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, missingno, nltk\nvisualisation: plotly, wordcloud, seaborn, folium\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nMise en place de pipelines de traitement de données et d’entrainement de modèles\nCréation d’indicateurs\nDéveloppement d’un système de recommandation\nVisualisation"
   },
   {
     "objectID": "projects/openfoodfacts_ecoscore.html#résumé-du-projet",
     "href": "projects/openfoodfacts_ecoscore.html#résumé-du-projet",
-    "title": "Nom du projet",
+    "title": "Prototype d’application de santé publique",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\nSimulation de réponse à un appel à projet pour trouver des idées innovantes d’applications en lien avec l’alimentation, sur la base des données de la base Open Food Facts. L’appel à projets spécifie que l’analyse doit être simple à comprendre pour un public néophyte.\nLivrable:\nUn protoytype d’application innovante, sur le modèle de l’application Yuka, permettant d’obtenir, pour chaque produit de la base de données, un eco-score basé sur des caractéristiques de soutenabillité du produit, et une liste de produits alternatifs avec un meilleur eco-score. L’Eco-Score produit est calculé sur la base de 5 notes liées aux enjeux planétaires:\n\nSanté : nutriscore et additifs\nDurable: labels bio et agriculture durable\nEthique : labels éthiques (Fair-trade, Max-Havelaar)\nCarbone : empreinte carbone et zone de production/transformation\nZéro-Déchet : nature de l’emballage\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, missingno, nltk\nvisualisation: plotly, wordcloud, seaborn, folium\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nMise en place de pipelines de traitement de données et d’entrainement de modèles\nCréation d’indicateurs\nDéveloppement d’un système de recommandation\nVisualisation"
   },
   {
     "objectID": "projects/openfoodfacts_ecoscore.html#le-problème",
     "href": "projects/openfoodfacts_ecoscore.html#le-problème",
-    "title": "Nom du projet",
+    "title": "Prototype d’application de santé publique",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nVous êtes Data Scientist au sein d’une société financière, nommée “Prêt à dépenser”, qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d’historique de prêt.\nL’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d’autres institutions financières, etc.).\nDe plus, les chargés de relation client ont fait remonter le fait que les clients sont de plus en plus demandeurs de transparence vis-à-vis des décisions d’octroi de crédit. Cette demande de transparence des clients va tout à fait dans le sens des valeurs que l’entreprise veut incarner.\nPrêt à dépenser décide donc de développer un dashboard interactif pour que les chargés de relation client puissent à la fois expliquer de façon la plus transparente possible les décisions d’octroi de crédit, mais également permettre à leurs clients de disposer de leurs informations personnelles et de les explorer facilement.\n\nEtre transparent avec les clients en leur expliquant les raisons menant à la décision."
   },
   {
     "objectID": "projects/openfoodfacts_ecoscore.html#mon-approche",
     "href": "projects/openfoodfacts_ecoscore.html#mon-approche",
-    "title": "Nom du projet",
+    "title": "Prototype d’application de santé publique",
     "section": "Mon approche",
-    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+    "text": "Mon approche\n\n&lt;p&gt;\nVotre navigateur ne supporte pas l’affichage du PDF. &lt;a href=\"../assets/files/PSanté_04_presentation.pdf\"&gt;Téléchargez-le ici&lt;/a&gt;.\n&lt;/p&gt;"
   },
   {
     "objectID": "projects/openfoodfacts_ecoscore.html#architecture-technique",
@@ -172,21 +172,21 @@
     "href": "projects/nlp_project.html",
     "title": "Nom du projet",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nLes notices bibliographiques produites par l’enseignement supérieur sont actuellemenet indexées à la main en fonction d’une notice d’indexation reconnus et structurée. Avec l’augmentation constante de la production scientifique, la méthode manuelle devient difficile à maintenant et peut devenir source d’erreur et de retard dans l’indexation des notices et leur mise à disposition pour le public.\nObjectif\nEvaluer la faisabilité d’une indexation automatique par des méthodes d’apprentissage supervisé.\nRésultat\nL’étude de plusieurs modèles de deep learning a permis de montrer que l’erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices. L’utilisation de l’IA comme outil d’aide à l’indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels.\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, tensorflow, annif, yellowbrick\nvisualisation: PIL, seaborn, plotly, wordcloud\n\nGit\n\n\n\n\n\nClassification multilabel extrême\nRéseaux de neurones (CNN)\nEvaluation de performances\nFine-tuning"
   },
   {
     "objectID": "projects/nlp_project.html#résumé-du-projet",
     "href": "projects/nlp_project.html#résumé-du-projet",
     "title": "Nom du projet",
     "section": "",
-    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+    "text": "Contexte\nLes notices bibliographiques produites par l’enseignement supérieur sont actuellemenet indexées à la main en fonction d’une notice d’indexation reconnus et structurée. Avec l’augmentation constante de la production scientifique, la méthode manuelle devient difficile à maintenant et peut devenir source d’erreur et de retard dans l’indexation des notices et leur mise à disposition pour le public.\nObjectif\nEvaluer la faisabilité d’une indexation automatique par des méthodes d’apprentissage supervisé.\nRésultat\nL’étude de plusieurs modèles de deep learning a permis de montrer que l’erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices. L’utilisation de l’IA comme outil d’aide à l’indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels.\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, tensorflow, annif, yellowbrick\nvisualisation: PIL, seaborn, plotly, wordcloud\n\nGit\n\n\n\n\n\nClassification multilabel extrême\nRéseaux de neurones (CNN)\nEvaluation de performances\nFine-tuning"
   },
   {
     "objectID": "projects/nlp_project.html#le-problème",
     "href": "projects/nlp_project.html#le-problème",
     "title": "Nom du projet",
     "section": "Le problème",
-    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+    "text": "Le problème\nActuellement, l’indexation des notices bibliographiques sont réalisées à la main. Avec l’augmentation des productions scientifiques, une indexation manuelle humaine montre ses limites. L’objectif de ce projet était de montrer la faisabilité d’une indexation Rameau de qualité satisfaisante au moyen d’une intelligence artificielle (IA) afin d’aider les catalogueurs de monographie du Sudoc à indexer les monographies.\n\nLorsque l’IA peut faciliter le travail fastidieux des catalogueurs."
   },
   {
     "objectID": "projects/nlp_project.html#mon-approche",
@@ -333,14 +333,14 @@
     "href": "projects/bank_scoring.html",
     "title": "Implémentation d’un modèle de scoring",
     "section": "",
-    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nMise en place de pipelines de traitement de données et d’entrainement de modèles\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
   },
   {
     "objectID": "projects/bank_scoring.html#résumé-du-projet",
     "href": "projects/bank_scoring.html#résumé-du-projet",
     "title": "Implémentation d’un modèle de scoring",
     "section": "",
-    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
+    "text": "Contexte\nProjet réalisé dans le cadre de la certification Data Scientist par OpenClassRoom et Centrale Supelec.\nObjectifs\n- Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d’un client de façon automatique. - Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d’interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client. - Mettre en production le modèle de scoring de prédiction à l’aide d’une API, ainsi que le dashboard interactif qui appelle l’API pour les prédictions.\nLivrables\nL’application de dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud. Un dossier, géré via un outil de versioning de code contenant :\n\nLe notebook ou code de la modélisation (du prétraitement à la prédiction), intégrant via MLFlow le tracking d’expérimentations et le stockage centralisé des modèles\nLe code générant le dashboard\nLe code permettant de déployer le modèle sous forme d’API\n\n\n\n\n\nLangage: Python\n\npackage: pandas, scikit-learn, xgboost, hyperopt, LIME, shap\nAPI : flask\nframework web: streamlit, heroku\nvisualisation: plotly\n\nGit\n\n\n\n\n\nExploration des données: formatage, nettoyage, imputation\nMise en place de pipelines de traitement de données et d’entrainement de modèles\nOptimisation d’un modèle de classification binaire\nGestion du déséquilibre des classes\nVisualisation"
   },
   {
     "objectID": "projects/bank_scoring.html#le-problème",

@@ -41,10 +41,13 @@ L’application de dashboard interactif répondant aux spécifications ci-dessus
 ### Type de projet
 
 -   Exploration des données: formatage, nettoyage, imputation
+-   Mise en place de pipelines de traitement de données et d'entrainement de modèles
 -   Optimisation d'un modèle de classification binaire
 -   Gestion du déséquilibre des classes
 -   Visualisation
 :::
+
+![](/assets/img/img_scoringbank_model.png){fig-align="center"}
 :::::
 
 ------------------------------------------------------------------------
@@ -63,9 +66,12 @@ Prêt à dépenser décide donc de développer un dashboard interactif pour que 
 
 ------------------------------------------------------------------------
 
+![](/assets/img/img_scoringbank.png){fig-align="center"}
+
 ## Mon approche
 
 <iframe src="../assets/files/Thebault_Aurelie_3_presentation_052022.pdf" width="100%" height="600px">
-  <p>Votre navigateur ne supporte pas l'affichage du PDF. 
-  <a href="../assets/files/Thebault_Aurelie_3_presentation_052022.pdf">Téléchargez-le ici</a>.</p>
+
+<p>Votre navigateur ne supporte pas l'affichage du PDF. <a href="../assets/files/Thebault_Aurelie_3_presentation_052022.pdf">Téléchargez-le ici</a>.</p>
+
 </iframe>
