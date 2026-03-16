@@ -1,5 +1,173 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Qui Suis-je",
+    "section": "",
+    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nanalyse de données\ndata science\nvisualisation\noutils interactifs\npédagogie scientifique"
+  },
+  {
+    "objectID": "about.html#à-propos",
+    "href": "about.html#à-propos",
+    "title": "Qui Suis-je",
+    "section": "",
+    "text": "Data scientist avec un background en écologie, je conçois des outils permettant de transformer des données complexes en supports d’analyse et d’aide à la décision.\nMes domaines d’intérêt :\n\nanalyse de données\ndata science\nvisualisation\noutils interactifs\npédagogie scientifique"
+  },
+  {
+    "objectID": "about.html#projets",
+    "href": "about.html#projets",
+    "title": "Qui Suis-je",
+    "section": "Projets",
+    "text": "Projets\n\nDashboard de pilotage d’activité entreprenarial\nOutil de visualisation interactive de résultat d’expérimentation terrain\nOutil interactif d’aide à l’analyse statistique de données écologique\nTest de modèles de Large Language Models pour la classification de ressources bibliographiques selon un reféreniel structuré (référentiel RAMEAU)\nPrototype d’application avec évaluation d”un Eco-Score sur la base des données en open-data de OpenFoodFact\nModélisation de la prise de décision concernant l’attribution d’un prêt bancaire\nMédiathèque interactive de ressources sur la redirection écologique"
+  },
+  {
+    "objectID": "about.html#parcours",
+    "href": "about.html#parcours",
+    "title": "Qui Suis-je",
+    "section": "Parcours",
+    "text": "Parcours\n\n2024 – aujourd’hui\nFondatrice des Solutions EcoLibres\nData science et développement d’outils d’analyse. Auvergne-Rhône-Alpes\n\n\n2021 – 2023\nEntrepreneure indépendante en Coopérative d’Activité et d’Emploi (CAE Arcoop)\nPrestation en analyse de données\nValence et France en remote\n\n\n2013 - 2020\nIngénieur de recherche en entreprise\nModélisation adaptée à l’agriculture de précision pour le développement d’outils d’aide à la décision pour les pratiques agricoles.\n\nCarbon Bee AgTech, Valence\nITK, Montpellier\n\n\n\n2009 - 2013\nRecherche et analyse de données environnementales\n\nINRAE, Montpellier\nUniversité de Lausanne, Lausanne, Suisse\nWSL, Lausanne, Suisse\n\n\n\n2004 - 2009\nThèse de docotrat en écologie végétale\nAnalyse de la résistance des communautés végétales aux plantes envahissantes\nEcole Polytechnique Fédérale de Lausanne (EPFL), Suisse\n\n\n2001 – 2004\nFormation scientifique en écologie et analyse de données\nFormation d’ingénieur agronome, spécialisation “Génie de l’environnement”\nOption Préservation, Aménagement des Milieux et Ecologie Quantitative\nAgrocampus Ouest, Rennes"
+  },
+  {
+    "objectID": "projects/interactive_ecology_library.html",
+    "href": "projects/interactive_ecology_library.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/interactive_ecology_library.html#résumé-du-projet",
+    "href": "projects/interactive_ecology_library.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/interactive_ecology_library.html#le-problème",
+    "href": "projects/interactive_ecology_library.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/interactive_ecology_library.html#mon-approche",
+    "href": "projects/interactive_ecology_library.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/interactive_ecology_library.html#architecture-technique",
+    "href": "projects/interactive_ecology_library.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html",
+    "href": "projects/interactive_data_analysis.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html#résumé-du-projet",
+    "href": "projects/interactive_data_analysis.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html#le-problème",
+    "href": "projects/interactive_data_analysis.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html#mon-approche",
+    "href": "projects/interactive_data_analysis.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/interactive_data_analysis.html#architecture-technique",
+    "href": "projects/interactive_data_analysis.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
+    "objectID": "projects/template_projet.html",
+    "href": "projects/template_projet.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/template_projet.html#résumé-du-projet",
+    "href": "projects/template_projet.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/template_projet.html#le-problème",
+    "href": "projects/template_projet.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/template_projet.html#mon-approche",
+    "href": "projects/template_projet.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/template_projet.html#architecture-technique",
+    "href": "projects/template_projet.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
+    "objectID": "projects/nlp_project.html",
+    "href": "projects/nlp_project.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/nlp_project.html#résumé-du-projet",
+    "href": "projects/nlp_project.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/nlp_project.html#le-problème",
+    "href": "projects/nlp_project.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/nlp_project.html#mon-approche",
+    "href": "projects/nlp_project.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/nlp_project.html#architecture-technique",
+    "href": "projects/nlp_project.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Data Science Portfolio",
@@ -26,5 +194,131 @@
     "title": "Data Science Portfolio",
     "section": "Mes clients",
     "text": "Mes clients\n\n\n\nEntreprises\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganismes de recherche\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssociations\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrganismes de formation"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Etant entrepreneure dans une coopérative d’activité et d’emploi (CAE), toute la partie administrative de mon business est gérée par l”équipe support de la structure et nous avons accès à un outil de suivi développé localement dans la Drôme. Cet outil (Louty) ne propose aucune visualisation de données excepté des tableaux de données, ce qui ne facilite pas la compréhension et le pilotage d’activité. J’ai donc proposé à ma CAE de développer un outil de visualisation afin que chaque entrepreneur puisse faire rapidement un état des lieux de sa situation économique et dispose des chiffres le plus à jour possible.\nVoir le projet\n\n\n\n\nProjet d’exploration et d’analyse descriptive de données, sous format interactif afin que le client profite de la puissance de R sans avoir besoin de coder les analyses\nVoir le projet\n\n\n\n\nOutil de diagnostic rapide de résultat d’expérimentation\nVoir le projet\n\n\n\n\nUtilisation de LLM pour structurer un référentiel documentaire.\nVoir le projet"
+  },
+  {
+    "objectID": "projects/index.html#projets-de-valorisation-de-données",
+    "href": "projects/index.html#projets-de-valorisation-de-données",
+    "title": "Projets",
+    "section": "",
+    "text": "Etant entrepreneure dans une coopérative d’activité et d’emploi (CAE), toute la partie administrative de mon business est gérée par l”équipe support de la structure et nous avons accès à un outil de suivi développé localement dans la Drôme. Cet outil (Louty) ne propose aucune visualisation de données excepté des tableaux de données, ce qui ne facilite pas la compréhension et le pilotage d’activité. J’ai donc proposé à ma CAE de développer un outil de visualisation afin que chaque entrepreneur puisse faire rapidement un état des lieux de sa situation économique et dispose des chiffres le plus à jour possible.\nVoir le projet\n\n\n\n\nProjet d’exploration et d’analyse descriptive de données, sous format interactif afin que le client profite de la puissance de R sans avoir besoin de coder les analyses\nVoir le projet\n\n\n\n\nOutil de diagnostic rapide de résultat d’expérimentation\nVoir le projet\n\n\n\n\nUtilisation de LLM pour structurer un référentiel documentaire.\nVoir le projet"
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html",
+    "href": "projects/entrepreneurship_dashboard.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html#résumé-du-projet",
+    "href": "projects/entrepreneurship_dashboard.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html#le-problème",
+    "href": "projects/entrepreneurship_dashboard.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html#mon-approche",
+    "href": "projects/entrepreneurship_dashboard.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/entrepreneurship_dashboard.html#architecture-technique",
+    "href": "projects/entrepreneurship_dashboard.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
+  },
+  {
+    "objectID": "projects/data_vizualisation.html",
+    "href": "projects/data_vizualisation.html",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "",
+    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’inteprétation des résultats.\n\n\n\n\nLangage: Python\n\npackage: pandas\nframework: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\nTémoignage\nAurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d’un sol. Cet outil a été conçu dans le cadre d’un projet de R&D co-financé par l’ADEME (projet DIVA). Avec l’aide d’EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d’un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd’hui en routine, et qui nous offre d’un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s’est attachée à retranscrire fidèlement ce qu’on lui demandait, tout en proposant ses propres options d’amélioration, et ce toujours dans la bonne humeur !\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
+  },
+  {
+    "objectID": "projects/data_vizualisation.html#résumé-du-projet",
+    "href": "projects/data_vizualisation.html#résumé-du-projet",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "",
+    "text": "Contexte\nLe client avait besoin d’un outil pour automatiser la représentation de variables mesurées lors d’une phase d’expérimentation.\nObjectif\nLa représentation graphique était stable mais il était nécessaire de pouvoir très rapidement tester la représentation de différentes variables dans différents contexte, sans refaire les graphiques à chaque changement.\nRésultat\nJ’ai réalisé une application interactive permettant de choisir, au sein d’une base de données, le site, les traitements, les années à étudier puis les variables à représenter. Cela a permis au client de gagner un temps énorme sur la production de graphiques, lui permettant de se concentrer sur sa valeur-ajoutée, i.e. l’inteprétation des résultats.\n\n\n\n\nLangage: Python\n\npackage: pandas\nframework: streamlit\nvisualisation: plotly\n\nGit\nDocker\n\n\n\n\n\nAnalyse de données\nApplication interactive\nVisualisation\n\n\n\n\nTémoignage\nAurélie nous a aidé (SOLTIS environnement et SUEZ-le-LyRE) à concevoir un outil de traitement de la donnée pour mieux caractériser la qualité et la santé d’un sol. Cet outil a été conçu dans le cadre d’un projet de R&D co-financé par l’ADEME (projet DIVA). Avec l’aide d’EcoLibres, des données diverses et multiples ont pu être retranscrites sous forme d’un dashboard lisible par tous. Aurélie nous a ainsi permis de mettre en forme une idée restée sous la forme de concept pour la transformer en un outil qui tourne aujourd’hui en routine, et qui nous offre d’un gain de temps considérable pour gérer nos données. Tout au long de nos échanges Aurélie s’est attachée à retranscrire fidèlement ce qu’on lui demandait, tout en proposant ses propres options d’amélioration, et ce toujours dans la bonne humeur !\nLilian Marchand, Resp. projets Environnement, Pôle environnement - SUEZ SAS"
+  },
+  {
+    "objectID": "projects/data_vizualisation.html#le-problème",
+    "href": "projects/data_vizualisation.html#le-problème",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/data_vizualisation.html#mon-approche",
+    "href": "projects/data_vizualisation.html#mon-approche",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nVérification de la cohérence de la base de données\nPropositions de représentations graphiques\nCalcul d’indicateurs statistiques simples (moyenne, écart-type, médiane)\n\n\n\n2. Construction de l’outil\n\ndashboard streamlit\nexploration et organisation des données avec Pandas\nvisualisation interactive avec plotly\n\n\n\n3. Déploiement chez le client\n\nDockerisation de l’application\nPush sur Gitlab à la demande du client\nDéploiement opéré en interaction avec le client (Dev. sur place)"
+  },
+  {
+    "objectID": "projects/data_vizualisation.html#architecture-technique",
+    "href": "projects/data_vizualisation.html#architecture-technique",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  subgraph Données\n    A[Excel formaté] --&gt; B[Chargement]\n  end\n  subgraph Traitement\n    B --&gt; C[Lecture & affichage]\n    C --&gt; D[Calculs interactifs]\n  end\n  subgraph Restitution\n    D --&gt; E[Visualisation]\n    E --&gt; F[Dashboard]\n  end\n  subgraph Déploiement\n    F --&gt; G[Git / Docker]\n    G --&gt; H[Client]\n  end\n\n  style A fill:#e8f4ea,stroke:#4caf50,color:#000\n  style B fill:#e8f4ea,stroke:#4caf50,color:#000\n  style C fill:#e3f0fb,stroke:#2196f3,color:#000\n  style D fill:#e3f0fb,stroke:#2196f3,color:#000\n  style E fill:#fff3e0,stroke:#ff9800,color:#000\n  style F fill:#fff3e0,stroke:#ff9800,color:#000\n  style G fill:#f3e5f5,stroke:#9c27b0,color:#000\n  style H fill:#f3e5f5,stroke:#9c27b0,color:#000"
+  },
+  {
+    "objectID": "projects/data_vizualisation.html#démo",
+    "href": "projects/data_vizualisation.html#démo",
+    "title": "Visualisation interactive de résultat d’expérimentation",
+    "section": "Démo",
+    "text": "Démo"
+  },
+  {
+    "objectID": "projects/open_data_exploration.html",
+    "href": "projects/open_data_exploration.html",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/open_data_exploration.html#résumé-du-projet",
+    "href": "projects/open_data_exploration.html#résumé-du-projet",
+    "title": "Nom du projet",
+    "section": "",
+    "text": "Contexte\nDécrire brièvement le contexte du projet.\nObjectif\nQuel problème ce projet devait-il résoudre ?\nRésultat\nQuel outil, analyse ou produit a été réalisé ?\n\n\n\nPython Pandas DataViz Dashboard\n\nR / Python\npackage ou librairie\nframework\nvisualisation\nGit\n\n\n\n\n\nAnalyse de données\nMachine learning\nApplication interactive\nVisualisation"
+  },
+  {
+    "objectID": "projects/open_data_exploration.html#le-problème",
+    "href": "projects/open_data_exploration.html#le-problème",
+    "title": "Nom du projet",
+    "section": "Le problème",
+    "text": "Le problème\nDécrire en quelques lignes :\n\nle contexte\nla difficulté\nl’intérêt du projet\n\n\nUne phrase clé peut être mise en évidence ici pour résumer l’enjeu principal."
+  },
+  {
+    "objectID": "projects/open_data_exploration.html#mon-approche",
+    "href": "projects/open_data_exploration.html#mon-approche",
+    "title": "Nom du projet",
+    "section": "Mon approche",
+    "text": "Mon approche\n\n1. Exploration des données\n\nanalyse exploratoire\nvisualisations\npremières hypothèses\n\n\n\n2. Préparation des données\n\nnettoyage\ntransformation\nfeature engineering\n\n\n\n3. Analyse ou modélisation\n\nméthodes utilisées\ncomparaison d’approches si applicable\n\n\n\n4. Construction de l’outil\n\ndashboard\nmodèle\nvisualisation interactive"
+  },
+  {
+    "objectID": "projects/open_data_exploration.html#architecture-technique",
+    "href": "projects/open_data_exploration.html#architecture-technique",
+    "title": "Nom du projet",
+    "section": "Architecture technique",
+    "text": "Architecture technique\n\n\n\n\n\nflowchart LR\n  A[Données brutes] --&gt; B[Préparation des données]\n  B --&gt; C[Analyse / Modélisation]\n  C --&gt; D[Visualisation]\n  D --&gt; E[Application / Dashboard]"
   }
 ]
