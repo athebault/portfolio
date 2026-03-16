@@ -1,6 +1,6 @@
 ---
-title: "Nom du projet"
-subtitle: "Phrase courte expliquant le projet"
+title: "Indexer automatiquement des notices bibliographiques"
+subtitle: "Créer un outil basé sur l'analyse de texte pour aider les catalogueurs dans leur indexation"
 author: "Aurélie Thébault"
 format:
   html:
@@ -21,8 +21,7 @@ Les notices bibliographiques produites par l'enseignement supérieur sont actuel
 Evaluer la faisabilité d'une indexation automatique par des méthodes d'apprentissage supervisé.
 
 **Résultat**\
-L'étude de plusieurs modèles de deep learning a permis de montrer que l'erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices.
-L'utilisation de l'IA comme outil d'aide à l'indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels. 
+L'étude de plusieurs modèles de deep learning a permis de montrer que l'erreur de classification effectuée par un algorithme automatisée est proche des différences produites par plusieurs catalogueurs sur un même set de notices. L'utilisation de l'IA comme outil d'aide à l'indexation pourrait donc être envisagée et améliorer drastiquement le travail des catalogueurs actuels.
 :::
 
 ::: {.column width="40%"}
@@ -49,3 +48,9 @@ L'utilisation de l'IA comme outil d'aide à l'indexation pourrait donc être env
 Actuellement, l'indexation des notices bibliographiques sont réalisées à la main. Avec l'augmentation des productions scientifiques, une indexation manuelle humaine montre ses limites. L'objectif de ce projet était de montrer la faisabilité d'une indexation [Rameau](https://rameau.bnf.fr/) de qualité satisfaisante au moyen d'une intelligence artificielle (IA) afin d'aider les catalogueurs de monographie du Sudoc à indexer les monographies.
 
 > Lorsque l'IA peut faciliter le travail fastidieux des catalogueurs.
+
+------------------------------------------------------------------------
+
+#### Lien 
+
+![](images/clipboard-920097189.png){width="20"} [Automatisation indexation RAMEAU](https://github.com/abes-esr/labo-indexation-ai)

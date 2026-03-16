@@ -6,8 +6,7 @@ title: "Projets"
 
 ### Tableau de bord de pilotage d'activité
 
-Etant entrepreneure dans une coopérative d'activité et d'emploi (CAE), toute la partie administrative de mon business est gérée par l"équipe support de la structure et nous avons accès à un outil de suivi développé localement dans la Drôme. Cet outil (Louty) ne propose aucune visualisation de données excepté des tableaux de données, ce qui ne facilite pas la compréhension et le pilotage d'activité. 
-J'ai donc proposé à ma CAE de développer un outil de visualisation afin que chaque entrepreneur puisse faire rapidement un état des lieux de sa situation économique et dispose des chiffres le plus à jour possible. 
+Etant entrepreneure dans une coopérative d'activité et d'emploi (CAE), toute la partie administrative de mon business est gérée par l"équipe support de la structure et nous avons accès à un outil de suivi développé localement dans la Drôme. Cet outil (Louty) ne propose aucune visualisation de données excepté des tableaux de données, ce qui ne facilite pas la compréhension et le pilotage d'activité. J'ai donc proposé à ma CAE de développer un outil de visualisation afin que chaque entrepreneur puisse faire rapidement un état des lieux de sa situation économique et dispose des chiffres le plus à jour possible.
 
 [Voir le projet](entrepreneurship_dashboard.qmd)
 
@@ -21,19 +20,40 @@ Projet d'exploration et d'analyse descriptive de données, sous format interacti
 
 ------------------------------------------------------------------------
 
-### Visualisation de résultat d'expérimentation 
+### Visualisation de résultat d'expérimentation
 
-Outil de diagnostic rapide de résultat d'expérimentation 
+Outil de diagnostic rapide de résultat d'expérimentation
 
 [Voir le projet](data_vizualisation.qmd)
 
 ------------------------------------------------------------------------
 
-### Classification automatique des références bibliographiques 
+## Elaboration de modèle de prédiction et/ou classification
+
+### Classification automatique des références bibliographiques
 
 Utilisation de LLM pour structurer un référentiel documentaire.
 
 [Voir le projet](nlp_project.qmd)
 
-------------------------------------------------------------------------
+|  |
+|:-----------------------------------------------------------------------|
+| \### Elaboration d'un indicateur de qualité santé et environnement |
+| Utilisation de LLM pour structurer un référentiel documentaire. |
+| [Voir le projet](openfoodfacts_ecoscore.qmd) |
+| \### Développement d'un outil d'aide à la décision pour l'attribution d"un crédit bancaire |
+| Calibration d'un modèle de scoring pour décider de l'atribution ou non d'un crédit bancaire et développement d'une interface de visualisation permettant d'expliquer la décision. |
+| [Voir le projet](bank_scoring.qmd) |
+
+## Petites applications utiles
+
+### Visualisation de la couverture géographique des titres de Presse régionale
+
+Application permettant de visualiser rapidement la couverture géographique des différents titres de presse quotidienne régionale française. Les données sont issues du site de l'Alliance pour les Chiffres de la Presse et des Médias ([ACPM](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale)).
+
+-> [Cartographie de la couverture géographique de la Presse Quotidienne] Régionale(https://cartographie-pqr.streamlit.app/)
+
+### Elaboration d'une bibliothèque de la redirection écologique
+
+Cette [application streamlit](https://www.mediatheque.ecolibres.fr/) permet de trouver rapidement des ressources en lien avec la redirection écologique et les business modeles régénératifs.
 
