@@ -51,6 +51,6 @@ Actuellement, l'indexation des notices bibliographiques sont réalisées à la m
 
 ------------------------------------------------------------------------
 
-#### Lien 
+#### Lien
 
 ![](images/clipboard-920097189.png){width="20"} [Automatisation indexation RAMEAU](https://github.com/abes-esr/labo-indexation-ai)

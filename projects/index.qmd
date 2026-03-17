@@ -57,4 +57,4 @@ Application permettant de visualiser rapidement la couverture géographique des 
 
 ### Elaboration d'une bibliothèque de la redirection écologique
 
-Cette [application streamlit](https://www.mediatheque.ecolibres.fr/) permet de trouver rapidement des ressources en lien avec la redirection écologique et les business modeles régénératifs.
+Cette [application streamlit](https://mediatheque-redirection-ecologique.streamlit.app/) permet de trouver rapidement des ressources en lien avec la redirection écologique et les business modeles régénératifs.
